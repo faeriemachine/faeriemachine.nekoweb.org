@@ -51,7 +51,7 @@
 .subtitle{
     display: block;
     margin: 5px;
-    font-size: 1.425em;
+    font-size: 1em;
     font-weight: 600;
     color: var(--indigo);
     background: var(--pastelorange);

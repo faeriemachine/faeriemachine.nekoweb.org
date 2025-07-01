@@ -2,17 +2,21 @@
 layout: base.njk
 ---
 
-{% block content %}
-  <article class="post__content">
-    <h1>{{ title }}</h1>
-    <p><time>{{ date }}</time></p>
-    <ul>
-      {% for tag in tags %}
-       <li>
-        <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
-       </li>
-      {% endfor %}
-    </ul>
-    {{ content | safe }}
-  </article>
+<div class=title>Blog post</div>
+<div class="box">
+  {% block content %}
+    <article class="post__content">
+      <span class="subtitle">{{ title }}</span>
+      <p><time>{{ date |  date }}</time></p>
+      <hr>
+      {{ content | safe }}
+      <hr>
+      <p>Tagged as:</p>
+      <p><i class="fa-solid fa-hashtag"></i>;
+        {% for tag in tags %}
+         <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
+       {% endfor %}
+      </p>
+    </article>
 {% endblock %}
+</div>

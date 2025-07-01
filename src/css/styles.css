@@ -46,7 +46,6 @@ a:hover {
 #navigation:hover {
     color: var(--white);
 }
-  
 
 p {
     margin: 10px;
@@ -94,13 +93,12 @@ h2{
 
 .subtitle{
   display: block;
-  margin: 5px;
+  padding: 10px;
   font-size: 1.15em;
   font-weight: 600;
   color: var(--indigo);
   background: var(--pastelorange);
   border-radius: 25px;
-  padding: 5px;
 }
 
 mark{
