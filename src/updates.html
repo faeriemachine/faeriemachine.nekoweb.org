@@ -1,4 +1,13 @@
 ---
 title: Updates
-layout: updates.njk
+layout: base.njk
 ---
+<head>
+    <link rel="stylesheet" href="/css/updates.css" />
+</head>
+<section class="one">
+    <div class="title">Updates Archive</div>
+    <div class="box" id="archive">
+        {% include "updates.njk" %}
+    </div>
+</section>

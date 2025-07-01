@@ -1,0 +1,9 @@
+.one {
+    display: block;
+}
+
+h1{
+    color: var(--indigo);
+    font-size: 1.5em;
+    text-align: center;
+}
