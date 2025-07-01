@@ -6,7 +6,7 @@ date: 2024-01-22
 author: Kian Quinn
 tags:
   - Personal
-  - Trips
+  - Travel
 ---
 
 I'm finally back from my trip to see my partner, and it's safe to say that it's easily been the best week of my entire life, I don't even know where to start with writing about how wonderful my time with them was! I suppose I can start with going in chronological order..

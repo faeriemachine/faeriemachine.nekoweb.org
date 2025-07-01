@@ -10,7 +10,7 @@ tags:
   - Social media
 ---
 
-[![A tweet from Twitter user Shayan Sardarizadeh. It is the start of a thread on misinformation about Palestine.](../img/Screenshot_12.png)](https://twitter.com/Shayan86/status/1710707264988868848)
+<a href="https://twitter.com/Shayan86/status/1710707264988868848" target="blank"><img src="../../img/blog/posts/Screenshot_12.png" alt="A tweet from Twitter user Shayan Sardarizadeh. It is the start of a thread on misinformation about Palestine." width="60%" style="float:left;padding:10px"></a>
 
 **EDIT 10/08/23:** I wanted to update this post because recent events in Palestine have reminded me of this blog post I made, because it's just one of the many things I despise about the new Twitter. Of course, I certainly don't expect Elon Musk to <i>not</i> be a zionist, but this just goes to show how much the new Twitter has failed to curb the rampant misinformation campaigns that have been able to gain traction on the website now that Twitter Blue is available to anyone who wants to pay and have their tweets be amplified. In the wake of human rights abuses, we're seeing just how vital of a role social media is playing on the narrative of Palestine, both on the ends of creating propaganda and being the one to fall for propaganda. Elon Musk is not only being oblivious about this out of ignorance, but also maliciously hurting real people by letting misinformation and conspiracy theories gain traction on his platform, because at least it earns him just a portion of what he lost in engagement revenue.
 
@@ -34,6 +34,6 @@ It's especially cumbersome when, as a physically disabled person with very low e
 
 Twitter is bleeding to death, slowly and painfully, and I believe that if Elon doesn't give up and shut the platform down altogether or sells off one day, then it will continue to hemorrhage out until it's physically impossible to use anymore. A huge method of communication and human connection is going to continue to suffer an agonizing death as it's slowly disemboweled, and it's all because Mr. Emerald Mines is too prideful to consider his platform a lost cause.
 
-![Mike Stoklasa from RedLetterMedia, reads 'Twitter makes me want to be dead'](**/img/twitter.png)
+<img src="../../img/blog/posts/twitter.png" width="100%">
 
 **TLDR;** Twitter sucks but it's given me such a vital method of human connection that I so desperately need, and I hope the worst for Elon Musk.

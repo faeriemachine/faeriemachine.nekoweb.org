@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: The Case For And Against Autism Parents - The Internet's Most Infamous "Warriors" of Disabled Children
-description: An esssay detailing the polarizing issue of Autism parents, and the place caretakers have in the autism community
+description: An essay detailing the polarizing issue of Autism parents, and the place caretakers have in the autism community
 date: 2024-11-16
 author: Kian Quinn
 tags:
