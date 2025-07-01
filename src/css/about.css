@@ -112,4 +112,18 @@ mark{
     #basics{
         height: 100px;
     }
+
+    .tabs{
+        width: 100%;   
+    }
+
+    .tablinks{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.9em;
+    }
+
+    li.interest {
+        line-height: 16px;
+      }
   }
