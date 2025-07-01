@@ -2,7 +2,7 @@
 layout: post.njk
 title: Surgery is Fucking Crazy
 description: Talking about the surgery I recently got, coding, and my plans for the near future
-date: 2025-05-03
+date: 2025-06-28
 author: Kian Quinn
 tags:
   - Personal

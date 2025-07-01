@@ -7,16 +7,14 @@ layout: base.njk
   {% block content %}
     <article class="post__content">
       <span class="subtitle">{{ title }}</span>
-      <p><time>{{ date |  date }}</time></p>
-      <hr>
-      {{ content | safe }}
-      <hr>
-      <p>Tagged as:</p>
-      <p><i class="fa-solid fa-hashtag"></i>;
+      <p><i class="fa-regular fa-calendar"></i> <time>{{ date |  date }}</time></p>
+      <p><i class="fa-solid fa-hashtag"></i>
         {% for tag in tags %}
          <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>
        {% endfor %}
       </p>
+      <hr>
+      {{ content | safe }}
     </article>
 {% endblock %}
 </div>
