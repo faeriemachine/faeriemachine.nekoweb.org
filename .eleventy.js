@@ -8,11 +8,6 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
 
   })
-  
-  eleventyConfig.addCollection('updates', function(collectionApi) {
-    return collectionApi.getFilteredByGlob('src/updates/**/*.md');
-
-  })
 
     return {
       passthroughFileCopy: true,
