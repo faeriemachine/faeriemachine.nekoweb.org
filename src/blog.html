@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+<head>
+  <link rel="stylesheet" href="/css/blog.css" />
+</head>
+These are all of my amazing blog posts, enjoy!
+<ul>
+  {% for post in collections.posts | reverse %}
+    <li><a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a>
+      <p>{{ post.data.description }}</p>
+      <hr>
+      <p class="date">{{ post.data.date }}</p></li>
+  {% endfor %}
+</ul>

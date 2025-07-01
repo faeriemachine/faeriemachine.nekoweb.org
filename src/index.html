@@ -1,0 +1,62 @@
+---
+title: Home
+layout: base.njk
+---
+<section id="one">
+    <div class="welcome">
+        <div class="title">ଘ(∩^o^)⊃━☆:･ﾟ✧*:･ﾟ✧</div>
+        <div class="box" id="introduction">
+            <p>My names are Kian or Eddie, welcome to my personal slice of the internet! Having begun this site back in 2022, I intend to use it to host everything that's important to me, and I hope you'll come along with me on my personal coding journey!</p>
+            <p><strong>This page is strictly 18+ and not suitable for minors.</strong></p>
+            
+            <p>This page is currently operating on it's 3.0 layout.</p>
+            <hr>
+            <span id="updated"></span> |
+            <span id="visitors"></span>
+        </div>
+    </div>
+    <div class="welcome-image">
+        <img class="sorayan-one" alt="Sorayan" src="img/home/sorayan1.png">
+    </div>
+</section>
+<section id="two">
+    <div class="bulletin-image">
+        <img class="sorayan-two" alt="Sorayan" src="img/home/sorayan7.png">
+    </div>
+    <div class="bulletin">
+        <div class="title">Bulletin Board</div>
+        <div class="box" id="bulletin-board">
+            <p>Below are various links you can use in order to donate to and support Palestinian causes and liberation.</p>
+            <ul>
+                <li><a href="https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0" target="_blank" >Vetted Gaza Evacuation Fundraiser List</a> - Masterlist of fundraisers for Palestinian families in need, vetted by actual Palestinians</li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/edit?usp=drive_web&ouid=113835288396245592240" target="_blank" >Operation Olive Branch</a> - Masterlist of fundraisers for Palestinian families in need</li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1FC1fK-3r-w3wPi2AdYho5_0j148QC6wkFIMdJA5kX4c/htmlview#gid=0" target="_blank" >Gaza Evacuation Relief Fund</a> - Fundraisers vetted by Ottawa4Palestine</li>
+                <li><a href="https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTKQYInYewFiGUX4afdHK-rANJDT4dgOC4IV6elKYNvYI2HvOTf_6IsTqt5m2KXcr_pGxcqR8AvsAJi/pubhtml?pli=1#" target="_blank" >The Butterfly Project</a> - More vetted fundraisers for Palestinians in need</li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1J-1KNHXmvY098fuCDWiOIm1fcphAgkXA8nnWqOSXouw/edit?gid=283092143#gid=283092143" target="_blank" >Bees and Watermelons</a> - Even more vetted fundraisers for Palestinians in need</li>
+                <li><a href="https://disabilityvisibilityproject.com/2023/12/25/crips-for-esims-for-gaza/" target="_blank" >Crips for eSims for Gaza</a> - Easily donate money that goes towards buying eSims for Gazans</li>
+                <li><a href="https://pcrf1.app.neoncrm.com/forms/2024-ramadan-campaign-1" target="_blank" >PCRF</a> - Donate directly to PCRF, this is their Ramadan Campaign</li>
+                <li><a href="https://twitter.com/CareForGaza" target="_blank" >CareForGaza</a> - The Twitter page for the Care For Gaza non-profit charity that aims to help needy families in Palestine</li>
+                <li><a href="https://piousprojects.org/discover?country=183" target="_blank" >Pious Projects Palestine</a> - A number of fundraiser initiatives you can donate to, providing needy families with everything between food and water, to medical supplies and specialized healthcare.</li>
+                <li><a href="https://www.unrwa.org/" target="_blank" >UNRWA</a> - The official website for the UNRWA </li>
+                <li><a href="https://bdsmovement.net/" target="_blank" >BDS Movement</a> - The official website for the Boycott, Divest, Sanction movement</li>
+                <li><a href="https://decolonizepalestine.com/" target="_blank" >Decolonize Palestine</a> - Some starter material for decolonizing your beliefs on Palestine</li>
+              </ul>
+        </div>
+    </div>
+</section>
+<section id="three">
+    <div class="now">
+        <div class="title">Currently...</div>
+        <div class="box" id="currently">
+          {% include 'currently.njk' %}
+        </div>
+    </div>
+    <div class="journal">
+        <div class="title">Recent journal posts</div>
+        <div class="box" id="blog">
+            {% for post in collections.posts | reverse %}
+                <li><a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a><p>{{ post.data.description }}</p><hr><p class="date">{{ post.data.date }}</p></li>
+            {% endfor %}
+        </div>
+    </div>
+</section>
