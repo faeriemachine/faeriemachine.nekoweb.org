@@ -14,8 +14,15 @@ eleventyComputed:
 <div class="box">
 {% for post in collections[tag] | reverse %}
 <a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a>
-<p class="date">{{ post.data.date | date }}</p>
-    <p>{{ post.data.description }}</p>
-    <hr>
+<p>{{ post.data.description }}</p>
+<p class="date">
+  <i class="fa-regular fa-calendar"></i> {{ post.data.date | date }} |
+  <i class="fa-solid fa-hashtag"></i>
+  {% for tag in post.data.tags %}
+   <a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+ {% endfor %}
+ 
+</p>
+<hr>
 {% endfor %}
 </div>
