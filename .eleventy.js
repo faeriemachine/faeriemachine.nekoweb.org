@@ -6,6 +6,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('posts', function(collectionApi) {
     return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
+
+  })
+  
+  eleventyConfig.addCollection('updates', function(collectionApi) {
+    return collectionApi.getFilteredByGlob('src/updates/**/*.md');
+
   })
 
     return {

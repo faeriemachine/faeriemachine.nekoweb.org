@@ -1,4 +1,4 @@
-#one{
+#one, #two{
     width: 95%;
     display: flex;
     margin: 0 auto;
@@ -18,11 +18,6 @@
     text-align: center;
 }
 
-#two{
-    width: 94%;
-    display: flex;
-}
-
 .bulletin{
     width: 280%;
 }
@@ -39,16 +34,16 @@
     z-index: 2;
 }
 
-#three{
+#three, #five{
     width: 100%;
     display: flex;
 }
 
-.now{
+.now, .journal, .cfl, .update{
     width: 50%;
 }
 
-#currently{
+#currently, #blog{
     overflow-y: scroll;
     height: 400px;
 }
@@ -64,30 +59,15 @@
     padding: 5px;
 }
 
-.journal{
-  width: 50%;
-}
-
-#blog{
-  overflow-y: scroll;
-  height: 400px;
-}
-
 #webring{
     height: 250px;
     overflow-y: scroll;
     text-align: center;
 }
 
-#clique{
+#cfl, #updates{
     overflow-y: scroll;
-    height: 135px;
-    text-align: center;
-}
-
-#fanlist{
-    overflow-y: scroll;
-    height: 135px;
+    height: 200px;
     text-align: center;
 }
 
