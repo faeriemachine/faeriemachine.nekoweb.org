@@ -6,7 +6,7 @@ layout: base.njk
 <div class="box">
   {% block content %}
     <article class="post__content">
-      <span class="subtitle">{{ title }}</span>
+      <h2>{{ title }}</span>
       <p><i class="fa-regular fa-calendar"></i> <time>{{ date |  date }}</time></p>
       <p><i class="fa-solid fa-hashtag"></i>
         {% for tag in tags %}

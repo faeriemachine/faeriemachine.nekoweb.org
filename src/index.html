@@ -8,7 +8,7 @@ layout: base.njk
 
 <section id="one">
     <div class="welcome">
-        <div class="title">ଘ(∩^o^)⊃━☆:･ﾟ✧*:･ﾟ✧</div>
+        <h1>ଘ(∩^o^)⊃━☆:･ﾟ✧*:･ﾟ✧</h1>
         <div class="box" id="introduction">
             <p>My names are Kian or Eddie, welcome to my personal slice of the internet! Having begun this site back in 2022, I intend to use it to host everything that's important to me, and I hope you'll come along with me on my personal coding journey!</p>
             <p><strong>This page is strictly 18+ and not suitable for minors.</strong></p>
@@ -28,7 +28,7 @@ layout: base.njk
         <img class="sorayan-two" alt="Sorayan" src="img/home/sorayan7.png">
     </div>
     <div class="bulletin">
-        <div class="title">Bulletin Board</div>
+        <h1>Bulletin Board</h1>
         <div class="box" id="bulletin-board">
             <p>Below are various links you can use in order to donate to and support Palestinian causes and liberation.</p>
             <ul>
@@ -50,13 +50,13 @@ layout: base.njk
 </section>
 <section id="three">
     <div class="now">
-        <div class="title">Currently...</div>
+        <h1>Currently...</h1>
         <div class="box" id="currently">
           {% include 'currently.njk' %}
         </div>
     </div>
     <div class="journal">
-        <div class="title">Recent blog posts</div>
+        <h1>Recent blog posts</h1>
         <div class="box" id="blog">
             {% for post in collections.posts | reverse %}
                 <li><a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a>
@@ -69,11 +69,11 @@ layout: base.njk
     </div>
 </section>
 <section id="four">
-    <div class="title">Webrings</div>
+    <h1>Webrings</h1>
     <div class="box" id="webring">
         <div class="results" style="width: 60%;background-color: #fff;color: #000;display: block;padding: 10px;border: 1px solid;margin: 0 auto;font-family: 'times';font-size: '15pt';">
             <p style="margin: 0">This page is protected by a</p>
-            <h2 style="margin: 0">ZEBRA</h2>
+            <p style="margin: 0;font-size: 20pt;font-weight: bold;">ZEBRA</p>
             <img class="image" style="max-width: 160px;border: 1px solid" alt="Zebra" src="img/home/zebra.jpg">
             <p class="description">The zebra's stripes are known to protect it from blood-sucking insects</p>
             <small>
@@ -87,7 +87,7 @@ layout: base.njk
 </section>
 <section id="five">
     <div class="cfl">
-        <div class="title">Cliques & Fanlists</div>
+        <h1>Cliques & Fanlists</h1>
         <div class="box" id="cfl">
             <a href="https://cliqued.wings.nu/" target="_blank" >rock me</a> <img src="img/home/rockme.png" alt="Blue and red lightning bolt"> Clarence Clarity, Failure<br>
             <a href="https://cliqued.wings.nu/" target="_blank" >my jam!!</a> <img src="img/home/indigo.png" alt="Indigo-coloured jar of jam"> <a href="https://open.spotify.com/track/4UdZPdVhZMs77wKdi7U3Im?si=38b7b54a445a4eb5" target="_blank" >Bipolar Rainbows</a><br>
@@ -109,7 +109,7 @@ layout: base.njk
         </div>
     </div>
     <div class="journal">
-        <div class="title">Site updates</div>
+        <h1>Site updates</h1>
         <div class="box" id="updates">
             {% include 'updates25.njk' %}
             <hr>
