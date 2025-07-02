@@ -1,0 +1,130 @@
+.subtitle{
+  position: sticky;
+  top: 0;
+}
+
+#one, #three, #four{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.intro{
+    width: 75%;
+}
+
+.alterhuman-image{
+    margin: 0 auto;
+}
+
+#introduction{
+    overflow-y: scroll;
+    height: 200px;
+    text-align: center;
+}
+
+.navi{
+    text-align:center;
+    background-color: var(--indigo);
+    margin: 8px auto;
+    width: 80%;
+    border-radius: 50px;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.tablinks{
+    font-family: 'Mali';
+    font-weight:600;
+    font-size: 1.25em;
+    color:var(--white);
+    background:var(--transparent);
+    border: 1px solid var(--transparent);
+    margin: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.tablinks:hover{
+    color:var(--red);
+    cursor: pointer;
+}
+
+#iden{
+    overflow-y: scroll;
+    height: 285px;
+    text-align: center;
+}
+
+/* Images */
+.alterhuman{
+    width: 115%;
+}
+
+.id {
+    width: 305px;
+    box-shadow: 1px 1px 5px black;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.id{
+    transition: all .2s ease;  
+  }
+
+.id:hover{
+  transition: all .2s ease;  
+  transform: scale(1.06); 
+}
+
+@media only screen and (max-width:980px) {
+
+  #one, #four{
+    flex-direction: column-reverse;
+  }
+
+  #three{
+    flex-direction: column;
+  }
+    
+  .intro {
+      width: 100%;
+    }    
+
+    .alterhuman-image{
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .alterhuman {
+      width: 200px;
+    }
+
+    .tabs{
+        width: 100%;   
+    }
+
+    .tablinks{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 0.9em;
+    }
+
+    #iden{
+      height: 200px;
+    }
+    
+    .id-image {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .id {
+        width: 200px;
+    }
+
+  }

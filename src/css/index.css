@@ -8,7 +8,7 @@
     width: 75%;
 }
 
-.welcome-image{
+.welcome-image, .bulletin-image{
     margin: 0 auto;
 }
 
@@ -20,10 +20,6 @@
 
 .bulletin{
     width: 280%;
-}
-
-.bulletin-image{
-    width: 150%;
 }
 
 #bulletin-board{
@@ -89,23 +85,32 @@
 
 @media only screen and (max-width:980px) {
 
-  #introduction{
-      overflow-y:scroll;
-      width: 225px;
-      height: 115px;
+  #one{
+    flex-direction: column-reverse;
   }
 
-  #bulletin-board{
-        width: 220px;
-        height: 125px;
+  .welcome {
+    width: 100%;
   }
+
+  #two{
+    flex-direction: column;
+  }
+
+  .bulletin{
+    width: 100%;
+}
 
   #currently, #blog {
     height: 165px;
   }
 
 .sorayan-one {
-    width: 120%;
+    width: 100%;
+  }
+
+  .sorayan-two {
+    width: 75%;
   }
 
 }

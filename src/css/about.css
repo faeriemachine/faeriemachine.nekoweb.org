@@ -56,7 +56,6 @@
 .navi{
     text-align:center;
     background-color: var(--indigo);
-    color: var(--white);
     margin: 8px auto;
     width: 80%;
     border-radius: 50px;
@@ -76,11 +75,11 @@
     margin: 5px;
     margin-left: 35px;
     margin-right: 35px;
-    cursor: pointer;
 }
 
 .tablinks:hover{
     color:var(--red);
+    cursor: pointer;
 }
 
 li.navi{
