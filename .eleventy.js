@@ -3,13 +3,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/js");
+  eleventyConfig.addPassthroughCopy("./src/md");
   eleventyConfig.addFilter("date", require("./src/filters/date.js"));
 
   eleventyConfig.addCollection('posts', function(collectionApi) {
     return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md');
 
   });
-  
 
     return {
       passthroughFileCopy: true,
