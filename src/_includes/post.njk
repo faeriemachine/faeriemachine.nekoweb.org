@@ -7,7 +7,7 @@ layout: base.njk
   {% block content %}
     <article class="post__content">
       <h2>{{ title }}</h2>
-      <p><i class="fa-regular fa-calendar"></i> <time>{{ date |  date }}</time></p>
+      <p><i class="fa-regular fa-calendar"></i> <time>{{ date |  date }}</time> | {{ content | wordcount }} words</p>
       <p><i class="fa-solid fa-hashtag"></i>
         {% for tag in tags %}
          <a href="/blog/tag/{{ tag | slugify }}">{{tag}}</a>

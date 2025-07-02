@@ -10,10 +10,10 @@ module.exports = function (eleventyConfig) {
 
   });
 
-  eleventyConfig.addCollection('updates', function(collectionApi) {
-    return collectionApi.getFilteredByGlob('src/updates/**/*.md');
-
-  });
+  const wordcountPlugin = require("eleventy-plugin-wordcount-extended");
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.addPlugin(wordcountPlugin);
+  };
 
     return {
       passthroughFileCopy: true,

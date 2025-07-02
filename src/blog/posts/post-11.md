@@ -5,6 +5,7 @@ description: My trip to Furnal Equinox for 2025, my first time at the convention
 date: 2025-05-03
 author: Kian Quinn
 tags:
+  - 2025
   - Personal
   - Travel
 ---

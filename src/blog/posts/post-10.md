@@ -5,6 +5,7 @@ description: Talking about recent life happenings, my progress on my premade fur
 date: 2025-02-13
 author: Kian Quinn
 tags:
+  - 2025
   - Personal
   - Daily Life
   - Projects

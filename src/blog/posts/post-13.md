@@ -5,6 +5,7 @@ description: An introduction to my 3.0 site, and talking about what I learned al
 date: 2025-07-28
 author: Kian Quinn
 tags:
+  - 2025
   - Webdev
   - Technology
 ---

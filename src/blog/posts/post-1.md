@@ -5,6 +5,7 @@ description: A personal rant detailing my greivances with Musk-era Twitter
 date: 2023-10-03
 author: Kian Quinn
 tags:
+  - 2023
   - Rant
   - Technology
   - Social media

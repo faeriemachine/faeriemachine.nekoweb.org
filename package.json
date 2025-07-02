@@ -13,6 +13,9 @@
   "type": "commonjs",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "@photogabble/eleventy-plugin-word-stats": "^1.0.1",
+    "eleventy-plugin-wordcount-extended": "^0.2.1",
+    "jsdom": "^26.1.0",
     "luxon": "^3.6.1"
   },
   "devDependencies": {

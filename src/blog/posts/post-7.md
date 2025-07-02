@@ -5,6 +5,7 @@ description: Daily life post venting about autism burnout while working on my th
 date: 2024-08-24
 author: Kian Quinn
 tags:
+  - 2024
   - Personal
   - Travel
 ---

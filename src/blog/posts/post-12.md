@@ -5,6 +5,7 @@ description: Talking about the surgery I recently got, coding, and my plans for 
 date: 2025-06-28
 author: Kian Quinn
 tags:
+  - 2025
   - Personal
   - Daily Life
 ---

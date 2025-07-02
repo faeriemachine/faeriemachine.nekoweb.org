@@ -5,6 +5,7 @@ description: A short post on recent life events, including my feelings having ju
 date: 2023-11-11
 author: Kian Quinn
 tags:
+  - 2023
   - Personal
   - Daily Life
 ---

@@ -5,6 +5,7 @@ description: An essay that takes a look at the act of self-infantilization and i
 date: 2023-11-11
 author: Kian Quinn
 tags:
+  - 2023
   - Essays
   - Politics
 ---

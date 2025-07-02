@@ -5,6 +5,7 @@ description: Daily life update post, talking about future coding projects while 
 date: 2024-09-25
 author: Kian Quinn
 tags:
+  - 2024
   - Personal
   - Daily Life
   - Disability

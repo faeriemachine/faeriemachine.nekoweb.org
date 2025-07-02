@@ -5,6 +5,7 @@ description: A recounting of my trip to visit my partner in San Antonio, Texas!
 date: 2024-01-22
 author: Kian Quinn
 tags:
+  - 2024
   - Personal
   - Travel
 ---

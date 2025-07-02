@@ -5,6 +5,7 @@ description: Daily life post talking about the start of my newest fursuit projec
 date: 2024-11-11
 author: Kian Quinn
 tags:
+  - 2024
   - Personal
   - Daily Life
   - Projects
