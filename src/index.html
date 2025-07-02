@@ -20,12 +20,12 @@ layout: base.njk
         </div>
     </div>
     <div class="welcome-image">
-        <img class="sorayan-one" alt="Sorayan" src="img/home/sorayan1.png">
+        <img class="sorayan-one" alt="Sorayan waving" src="img/home/sorayan1.png">
     </div>
 </section>
 <section id="two">
     <div class="bulletin-image">
-        <img class="sorayan-two" alt="Sorayan" src="img/home/sorayan7.png">
+        <img class="sorayan-two" alt="Sorayan waving wearing coat" src="img/home/sorayan7.png">
     </div>
     <div class="bulletin">
         <h1>Bulletin Board</h1>
@@ -61,7 +61,7 @@ layout: base.njk
             {% for post in collections.posts | reverse %}
                 <li><a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a>
                     <p>{{ post.data.description }}</p></li>
-                    <p class="date">{{ post.data.date | date }}</p>
+                    <p class="date"><i class="fa-regular fa-calendar"></i> {{ post.data.date | date }}</p>
                     <hr>
             {% endfor %}
             <strong><p>See all blog posts <a href="/blog/index">here</a>!</p></strong>
@@ -81,7 +81,7 @@ layout: base.njk
             </small>
             </div>
             <br />
-            <a target="_new" href="https://sephiria.com/gifts/claim.html"><img height="250" src="img/home/maudino.jpg"> <img height="250" src="img/home/blitzle.jpg"> <img height="250" src="img/home/latiaslatios.jpg"></a><br>
+            <a target="_new" href="https://sephiria.com/gifts/claim.html"><img height="250" src="img/home/maudino.jpg" alt="Mega Audino EX"> <img height="250" src="img/home/blitzle.jpg" alt="Blitzle"> <img height="250" src="img/home/latiaslatios.jpg" alt="Latias Latios GX"></a><br>
             My TCG partner // <a target="_new" href="https://sephiria.com/gifts/claim.html"><b>Fates Collide</b> / M Audino EX, <b>Team Up</b> / Blitzle, <b>Team Up</b> / Latias & Latios</a>
     </div>
 </section>
