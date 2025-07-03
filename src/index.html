@@ -58,12 +58,12 @@ layout: base.njk
     <div class="journal">
         <h1>Recent blog posts</h1>
         <div class="box" id="blog">
-            {% for post in collections.posts | reverse %}
-                <li><a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a>
-                    <p>{{ post.data.description }}</p></li>
-                    <p class="date"><i class="fa-regular fa-calendar"></i> {{ post.data.date | date }}</p>
-                    <hr>
-            {% endfor %}
+                {% for post in collections.posts | reverse %}
+                    <li><a class="subtitle" href="{{post.url}}">{{ post.data.title }}</a>
+                        <p>{{ post.data.description }}</p></li>
+                        <p class="date"><i class="fa-regular fa-calendar"></i> {{ post.data.date | date }}</p>
+                        <hr>
+                {% endfor %}
             <strong><p>See all blog posts <a href="/blog/index">here</a>!</p></strong>
         </div>
     </div>
