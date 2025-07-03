@@ -4,10 +4,21 @@ h2{
   margin: 0;
 }
 
-#one, #three, #four{
+h3 {
+  font-size: 1.05em;
+  margin: 0px;
+  padding: 0px;
+}
+
+#one, #three, #four, #five{
     width: 95%;
     display: flex;
     margin: 0 auto;
+}
+
+#six{
+  width: 95%;
+  margin: 0 auto;
 }
 
 .intro{
@@ -59,6 +70,29 @@ h2{
     text-align: center;
 }
 
+#kin{
+  height: fit-content;
+  text-align: center;
+  margin: 5px auto;
+}
+
+#kin p{
+  margin: 0px;
+}
+
+#therian-intro{
+  height: 125px;
+  text-align: center;
+  overflow-y: scroll;
+  margin: 0 auto;
+}
+
+#therian-desc{
+  height: 325px;
+  text-align: center;
+  overflow-y: scroll;
+}
+
 /* Images */
 .alterhuman{
     width: 115%;
@@ -71,11 +105,26 @@ h2{
     border-radius: 25px;
 }
 
-.id{
+.kintype {
+  width: 150px;
+  box-shadow: 1px 1px 5px black;
+  margin: 5px;
+  border-radius: 25px;
+}
+
+.theriotype {
+  display: block;
+  width: 350px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 25px;
+  margin: 5px auto;
+}
+
+.id, .kintype, .theriotype{
     transition: all .2s ease;  
   }
 
-.id:hover{
+.id:hover, .kintype:hover, .theriotype:hover{
   transition: all .2s ease;  
   transform: scale(1.06); 
 }
