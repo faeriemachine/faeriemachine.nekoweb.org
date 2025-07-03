@@ -39,10 +39,6 @@
     width: 50%;
 }
 
-.current{
-  width:100%;
-}
-
 #currently, #blog{
     overflow-y: scroll;
     height: 400px;
