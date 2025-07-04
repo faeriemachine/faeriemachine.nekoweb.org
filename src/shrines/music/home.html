@@ -395,27 +395,13 @@ h1{
       <iframe class="update" style="border-radius:25px;" src="../../music/updates" frameBorder="0"></iframe>
     </div>
     <div id="credit" class="flex">
-      <span class="credit">INSPIRED BY  <a href="https://doqmeat.com/music/" target="_blank">DOQMEAT'S MUSIC PAGE</a>  | <a href="/index">HOMEPAGE</a> | LAST UPDATED <span id="lastupdate"></span></span>
+      <span class="credit"><strong>Inspired by</strong>  <a href="https://doqmeat.com/music/" target="_blank">Doqmeat's music page</a>  | <a href="/index">Homepage</a> | <span id="updated"></span></span>
     </div>
 </div>
 
 </body>
+<script src="../../../js/updated-visitors.js"></script>
 <script>
-    /*! Last updated */
-    
-    var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          var site_data = JSON.parse(this.responseText);
-    
-    var date_obj = new Date(site_data.info.last_updated);
-    document.getElementById("lastupdate").innerHTML = date_obj.toLocaleDateString();
-    
-        }
-      };
-      xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=faeriemachine", true);
-      xhttp.send();
-
     /* OpenCity */ 
     function openCity(evt, cityName) {
        var i, tabcontent, tablinks;
