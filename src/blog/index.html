@@ -1,0 +1,34 @@
+---
+title: Blog
+layout: base.njk
+---
+
+<h1>Blog</h1>
+
+<div class="box">
+  <img src="../img/blog/sorayan8.png" alt="Sorayan drinking tea" style="float:right;width: 25%;margin: 10px;">
+  <p style="text-align: center;"> 
+    Welcome to my blog! This is where I dump all of my written work, ranging from fully-fledged essays, to more journal-like posts about my daily life. Please be aware that <em>I am not a professional writer by any means,</em> I'm just a guy with a brain that likes to think.
+  <h3 style="text-align: center;">Warning</h3>
+  </p>
+  <p style="text-align: center;"> 
+    There may be triggering content present in my articles. Most articles containing this kind of content will have a content warning available at the start, with a description of what you can expect in said article.
+  </p>
+</div>
+<h1>All posts</h1>
+<div class="box">
+  {% for post in collections.posts | reverse %}
+  <h2><a href="{{post.url}}">{{ post.data.title }}</a></h2>
+      <p>{{ post.data.description }}</p>
+      <p class="date">
+        <i class="fa-regular fa-calendar"></i> {{ post.data.date | date }}</p>
+      <p>
+        <i class="fa-solid fa-hashtag"></i>
+        {% for tag in post.data.tags %}
+      | <a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
+       {% endfor %}
+       
+      </p>
+  <hr>
+ {% endfor %}
+</div>

@@ -1,0 +1,24 @@
+{
+  "name": "faeriemachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@photogabble/eleventy-plugin-word-stats": "^1.0.1",
+    "eleventy-plugin-wordcount-extended": "^0.2.1",
+    "jsdom": "^26.1.0",
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "eleventy-plugin-date": "^1.0.0"
+  }
+}
