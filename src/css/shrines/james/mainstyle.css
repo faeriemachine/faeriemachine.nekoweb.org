@@ -1,0 +1,140 @@
+html{
+ height: 100%; 
+}
+
+body{
+background:linear-gradient(0deg, rgba(228, 174, 174, 0.3), rgba(228, 174, 174, 0.3)), url('../../../img/shrines/james/hearts5.gif');
+  background-position: center;
+  background-repeat: repeat;
+color: #050040;
+font-family: 'Mali';
+font-size: 1em;
+}
+
+#container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+#header {
+background-image: url('../../../img/shrines/james/gif1.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+width: 100%;
+height: 265px;
+border: 20px solid transparent;
+border-image: url(../../../img/shrines/james/tumblr_6c5f81e5ff408005893df9eaeceaa40f_85baf666_400.png) 22 round;
+border-image-outset: 10px;
+margin-top: 20px;
+}
+
+.wrap {
+height: 255px;
+margin: 15px;
+display: flex;
+}
+
+.wrap span {
+align-self: flex-end;
+}
+
+#navbar{
+background-color:#a52222;
+padding: 10px;
+border-radius: 25px;
+text-align: left;
+margin-top: 10px;
+width: 815px;
+box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#navbar a{
+color: #ffffff;
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+text-decoration: none;
+font-size: 1.25rem;
+}
+
+#navbar ul {
+display: flex;
+padding: 0;
+margin: 0;
+list-style-type: none;
+justify-content: space-evenly;
+text-align: center;
+}
+
+main {
+flex: 1;
+box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
+width: 830px;
+border: 5px ridge rgb(255, 210, 33);
+margin-top: 10px;
+height: 450px;
+}
+
+.iframe{
+  width:100%;
+  height: 100%;
+}
+
+footer{
+background-color:#a52222;
+color: #ffffff;
+padding: 10px;
+border-radius: 25px;
+text-align: center;
+margin-top: 10px;
+width: 815px;
+box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+footer a{
+color: #ffffff;
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+text-decoration: none;
+}
+
+footer ul {
+display: flex;
+padding: 0;
+margin: 0;
+list-style-type: none;
+justify-content: space-evenly;
+}
+
+/* Media query */
+@media only screen and (max-width: 800px) {
+
+#header{
+  width: 16rem;
+  height: 6rem;
+}
+
+main{
+  width: 18rem;
+}
+
+.title{
+  width: 55%;
+}
+
+.wrap {
+  height: 100px;
+  margin: 0px;
+}
+
+#navbar{
+  width: 17.5rem;
+}
+
+#navbar a{
+  font-size: 0.8rem;
+  margin: 5px;
+}
+
+footer{
+  width: 17.5rem;
+}
+  
+}
