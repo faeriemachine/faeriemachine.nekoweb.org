@@ -1,0 +1,25 @@
+/* light.css */
+:root {
+	--b1: #ffffe6;
+	--b2: #fff1cc;
+	--text: #006262;
+	--a: #75105c;
+	--dead: black;
+	--h: #5128a4;
+}
+
+a {
+  color: var(--a);
+}
+
+h1, h2, h3, h4 {
+  color: var(--a);
+}
+
+#main {
+	background: var(--b1);
+}
+
+#contents {
+	background: var(--b2);
+}
