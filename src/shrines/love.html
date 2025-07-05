@@ -21,7 +21,7 @@ html{
 }
 
 body{
-background-image: url('/images/love/dithered-image.png');
+background-image: url('../../img/shrines/love/dithered-image.png');
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -42,19 +42,19 @@ main {
   border-color: #ff4da6;
 }
 
-#header {
+header {
 margin-top: 25px;
 margin: 10px auto auto auto;
 width: 700px;
 background-color: #5e4e8c;
 height: 200px;
-background: linear-gradient(0deg, rgba(204, 0, 153, 0.2), rgba(255, 204, 230, 0.2)), url('/images/love/ea86p0.jpg');
+background: linear-gradient(0deg, rgba(204, 0, 153, 0.2), rgba(255, 204, 230, 0.2)), url('../../img/shrines/love/ea86p0.jpg');
 background-size: 100%;
 border-style: groove;
 border-color: #ff4da6;
 }
 
-.navi{
+nav{
   background-color:#E91E63;
   width: fit-content;
   margin: 0 auto;
@@ -194,6 +194,7 @@ text-decoration:none;
   top: 135px;
   z-index:1;
   font-weight:bold;
+  background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #ffcc66;
     -webkit-text-stroke-width: 0.5px;
@@ -203,7 +204,7 @@ text-decoration:none;
 /* Media query */
 @media only screen and (max-width: 800px) {
 
-#header{
+header{
   width: 18rem;
   height: 6rem;
 }
@@ -217,7 +218,7 @@ main{
   width: 18rem;
 }
 
-.navi{
+nav{
   display: flex;
   flex-wrap: wrap;
 }
@@ -257,22 +258,20 @@ margin: -3px;
 
 </head>
 <body>
-  <div id="header">
+  <header>
     <div id="headertxt">
       24.10.19 - <abbr title="infinity">∞</abbr>
      </div>
-  </div>
+  </header>
 <div id="container">
   <main>
-
-    <div class="navi">
+    <nav>
       <button class="button"><a href="/index">Back</button>
       <button class="button"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'letter')" id="defaultOpen">Loveletter</a></button>
       <button class="button"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'love')">We love...</a></button>
       <button class="button"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'history')">How we met</a></button>
       <button class="button"><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'testimonials')">Testimonials</a></button>
-    </div>
-
+    </nav>
   <div id="letter" class="tabcontent">
    <div id="one" class="box">
       <p class="bold" style="text-align:left;"><i>Dear Ghost...</i></p>
@@ -297,18 +296,18 @@ margin: -3px;
       <span class="timeel seconds">00</span>
       <span class="timeel timeRefSeconds">seconds</span></div>
     <p>
-      <img src="/images/love/tumblr_p0ziirqN5y1wxm1heo4_250.gif" alt="'I wanna make out' with lips on it">
-      <img src="/images/love/1f91c821.gif" alt="'I need you'">
-      <img src="/images/love/fuxWzyX.gif" alt="'I love my honey' bear">
-      <img src="/images/love/tumblr_86ff346e95af903eecfb8521954c266f_cae233c7_250.gif" alt="'I love loving you'">
-      <img src="/images/love/tumblr_inline_pwzjtdg5J41u8llbn_500.gif" alt="'Kiss me' lips">
-      <img src="/images/love/tumblr_901c3da15acd096c1cfa780e8208e8e8_a9f96003_250.gif" alt="'I found love online' laptop">
-      <img src="/images/love/aecfc43d.gif" alt="'You have my heart!'">
-      <img src="/images/love/e3f17781.gif" alt="'Got love?'">
-      <img src="/images/love/a1cf0ff0.gif" alt="'Life began after I fell in love with you' roses">
-      <img src="/images/love/tumblr_795bb1850e006f71a26d42c4e9629063_e3a981c3_250.gif" alt="'My pretty pretty angel' wings">
-      <img src="/images/love/tumblr_dcf50036661457991dfcb445b69785e0_217eb848_250.gif" alt="'Light of my life' candles">
-      <img src="/images/love/tumblr_cff6b755985dd82363c81c799210827c_77b22a42_250.gif" alt="'My dearest love [heart]' bunnies">
+      <img src="../../img/shrines/love/tumblr_p0ziirqN5y1wxm1heo4_250.gif" alt="'I wanna make out' with lips on it">
+      <img src="../../img/shrines/love/1f91c821.gif" alt="'I need you'">
+      <img src="../../img/shrines/love/fuxWzyX.gif" alt="'I love my honey' bear">
+      <img src="../../img/shrines/love/tumblr_86ff346e95af903eecfb8521954c266f_cae233c7_250.gif" alt="'I love loving you'">
+      <img src="../../img/shrines/love/tumblr_inline_pwzjtdg5J41u8llbn_500.gif" alt="'Kiss me' lips">
+      <img src="../../img/shrines/love/tumblr_901c3da15acd096c1cfa780e8208e8e8_a9f96003_250.gif" alt="'I found love online' laptop">
+      <img src="../../img/shrines/love/aecfc43d.gif" alt="'You have my heart!'">
+      <img src="../../img/shrines/love/e3f17781.gif" alt="'Got love?'">
+      <img src="../../img/shrines/love/a1cf0ff0.gif" alt="'Life began after I fell in love with you' roses">
+      <img src="../../img/shrines/love/tumblr_795bb1850e006f71a26d42c4e9629063_e3a981c3_250.gif" alt="'My pretty pretty angel' wings">
+      <img src="../../img/shrines/love/tumblr_dcf50036661457991dfcb445b69785e0_217eb848_250.gif" alt="'Light of my life' candles">
+      <img src="../../img/shrines/love/tumblr_cff6b755985dd82363c81c799210827c_77b22a42_250.gif" alt="'My dearest love [heart]' bunnies">
     </p>
   </div>
   
@@ -357,7 +356,7 @@ margin: -3px;
     <p>From there, our relationship has been flourishing, and we've been growing as people together ever since. Even after all these years, it still feels like a dream come true that they like me back and that we've been together for this long. Ghost makes me feel like the luckiest man alive, I wouldn't want to have it any other way!</p>
     <p>And yes, for the record, we're still very much into SOAD. We might not be super fixated on it anymore like we used to be, but it's still such an important part of our story that I don't think either of us will ever let go of the sentimental value we hold towards their music. Our fursonas have matching SOAD-inspired markings for a reason! We've even made it a goal of ours to see them live together some day- I hope that can happen!!</p>
   </div>
-  <p><img src="/images/love/tumblr_2be67b444d186bbc6e46bf4b4ba89d5d_4d7f1dde_400.png" alt="Pink angel bunny and grey demon bunny" height="159"></p>
+  <p><img src="../../img/shrines/love/tumblr_2be67b444d186bbc6e46bf4b4ba89d5d_4d7f1dde_400.png" alt="Pink angel bunny and grey demon bunny" height="159"></p>
   </div>
 
   <div id="testimonials" class="tabcontent">
@@ -380,26 +379,8 @@ margin: -3px;
 </div>
  
 </body>
+<script src="../../js/openCity.js"></script>
 <script type="text/javascript">
-
-   /* OpenCity */ 
-   function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-  }
-
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-
   window.onload = function() {
     // Month Day, Year Hour:Minute:Second, id-of-element-container
     countUpFromTime("October 24, 2019 12:00:00", 'countup1'); // ****** Change this line!
