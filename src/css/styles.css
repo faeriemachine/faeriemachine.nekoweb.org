@@ -202,6 +202,17 @@ mark{
     border-bottom-right-radius: 100px;
 }
 
+/* Figures */
+figure {
+  background-color: var(--pastelorange);
+  box-shadow: 1px 1px 5px black;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  height: fit-content;
+}
+
 /* Marquees */
 .marquee-guts{
     width: 0%;
