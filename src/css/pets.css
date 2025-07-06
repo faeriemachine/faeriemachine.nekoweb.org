@@ -37,3 +37,22 @@
     height: 150px;
     overflow-y: scroll;
   }
+
+  @media only screen and (max-width:980px) {
+  
+    #one {
+      flex-direction: column;
+    }
+
+    .pet-image {
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+    #pet-desc {
+      height: 235px;
+      width: auto;
+  }
+
+  }

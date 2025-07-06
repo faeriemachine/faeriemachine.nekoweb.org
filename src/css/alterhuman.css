@@ -174,16 +174,20 @@ h2{
       }
   
       #kin{
-        height: 145px;
+        height: auto;
       }
   
       .kintype{
-        width: 70px;
+        width: stretch;
       }
   
+      .theriotype{
+        width: auto;
+      }
+      
       #therian-desc {
         height: 235px;
-        width: 350px;
+        width: auto;
       }
   
     }
