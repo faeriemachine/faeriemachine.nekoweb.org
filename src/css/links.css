@@ -1,4 +1,4 @@
-#one{
+#one, #two{
     width: 95%;
     display: flex;
     margin: 0 auto;
@@ -15,6 +15,11 @@
 #introduction{
     overflow: hidden;
     height: 200px;
+    text-align: center;
+}
+
+#mutuals, #sites{
+    width: 50%;
     text-align: center;
 }
 
