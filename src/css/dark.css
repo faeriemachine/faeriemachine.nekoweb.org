@@ -72,7 +72,7 @@ mark{
 }
 
 form select{
-    color: var(--cyanblue);
+    color: var(--pastelpurple);
     background: var(--darkmagenta);
     border: 3px solid var(--indigo);
 }
