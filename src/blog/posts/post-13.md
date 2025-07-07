@@ -22,6 +22,8 @@ I've also learned how to build a fully-functioning blog with tags and dates, and
 
 But you know what's the most exciting part of all of this? I'm able to write my blog posts using just markdown and nothing else. I always hated, *hated* having to write down my blog posts in markdown in my Obsidian, and convert them to HTML afterwards, because I didn't have a way of being able to keep everything in markdown. But now, all I have to do is refer my layout to my base nunjucks file, and 11ty does the rest for me. This thing really does work like magic.
 
+For optimal accessibility, I've also included a light/dark mode CSS toggle, as well as a play/stop gifs toggle! These were things I neglected to add to the site's past iterations, fearing that setting it up would've been too complicated. Luckily for me, they were actually pretty simple, and I have to give my thanks to [SwiftyHQ's CSS toggle guide](https://swiftyshq.neocities.org/blog/2025-06-29-Style-Switching-Creating-Themes/) and [Solaria's freezing gif tutorial](https://solaria.neocities.org/guides/gifpausetut) for helping me make sense of going about these things.
+ 
 I also have a new little page dedicated to [my pets](/pets)! It's not anything too fancy by any means, but it's something I've been wanting to make since I started expanding my website back in 2023, so I figured that now would be a good time to put one together. 
 
 The [about](/about) page also got a new look, and what was once the 'otherkin' page is now titled as the more general '[alterhuman](/alterhuman)' page! Not much to say about these two, they're relatively simple in terms of their designs, but are still worth a mention. 
@@ -39,6 +41,6 @@ And yes, the thrift log is still down because I'm still very unhappy with my pas
 
 The picture log page is also still something I'm trying to figure out, specifically with how I want everything presented. I don't even know if I want it to use my base layout and go for something entirely unique or not! I haven't forgotten about it, I just truly don't know what to do with it yet... 
 
-I also have a bunch of future editions to the website to look out for, including (but not limited to); archive pages, a wishlist page, a recipes page, more shrines, and so, so much more. Even as I finish parts of the site, it will always be a work-in-progress, and I'm coming to terms with the fact that something as big as a personal website with all kinds of content on it is a huge task that doesn't need to be finished and polished right away. I'm learning the art of takings one day, one step at a time. 
+I also have a bunch of future editions to the website to look out for, including (but not limited to); archive pages, a wishlist page, a recipes page, more shrines, and so, so much more. Even as I finish parts of the site, it will always be a work-in-progress, and I'm coming to terms with the fact that something as big as a personal website with all kinds of content on it is a huge task that doesn't need to be finished and polished right away. I'm learning the art of taking things one day, one step at a time. 
 
-With all that said, I hope you all will enjoy what 3.0 has to offer! 
+With all that said, I hope you all will enjoy what 3.0 has to offer! Next on my to-do list is to revamp my [art site](tri4ge.icu) to fit my current coding skills, as I've learned a ton from rebuilding this site, and want it to be the best it possibly can be.
