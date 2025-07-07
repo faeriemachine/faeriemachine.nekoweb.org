@@ -209,7 +209,7 @@ figure {
   transition: all .2s ease;  
 }
 
-.button{
+#button{
     transition: all .2s ease;  
   }
 
@@ -218,7 +218,7 @@ figure {
   transition: all .2s ease;  
 }
 
-.button:hover, .link:hover, #neighbour:hover{
+#button:hover, .link:hover, #neighbour:hover{
   transition: all .2s ease;  
   transform: scale(1.1); 
 }
