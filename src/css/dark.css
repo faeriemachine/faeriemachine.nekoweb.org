@@ -77,6 +77,11 @@ form select{
     border: 3px solid var(--indigo);
 }
 
+textarea{
+  color: var(--white);
+  background: var(--black);
+}
+
 .date{
   color:#ffc3abd4;
 }
