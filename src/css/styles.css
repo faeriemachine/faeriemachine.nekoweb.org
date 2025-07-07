@@ -423,22 +423,7 @@ figure {
 
 /* Status cafe */
 #statuscafe {
-    background-color: var(--pastelorange);
-    box-shadow: 1px 1px 5px black;
-    border-radius: 25px;
-    padding: 5px;
     margin: 5px;
-    text-align: center;
-    height: 110px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-#statuscafe-content {
-    margin: 0 .5em 0.5em 0.5em;
 }
 
 /* Last.FM Widget */
