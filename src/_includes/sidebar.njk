@@ -6,7 +6,12 @@
                             <button class="toggleon" id="giftoggle" onclick="freezegifs()">Pause gifs</button>
                             <button class="toggleoff" id="giftoggle" onclick="resumegifs()">Play gifs</button>
                         </p>
-                        <p>[Toggle theme]</p>
+                            <form id="switchform" aria-label="styleswitcher">
+	                            <select name="switchcontrol" id="siteswitcher" size="1" onChange="chooseStyle(this.options[this.selectedIndex].value, 60)">
+		                            <option value="light">light</option>
+                                    <option value="dark">dark</option>
+	                            </select>
+                            </form>
                     </div>
                     <h1>
                         Scrobbles

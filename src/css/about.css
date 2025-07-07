@@ -4,17 +4,6 @@
     margin: 0 auto;
 }
 
-.subtitle{
-    display: block;
-    margin: 5px;
-    font-size: 1.425em;
-    font-weight: 600;
-    color: var(--indigo);
-    background: var(--pastelorange);
-    border-radius: 25px;
-    padding: 5px;
-}
-
 .about{
     width: 280%;
 }
