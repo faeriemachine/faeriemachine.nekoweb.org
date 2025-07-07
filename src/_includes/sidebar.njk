@@ -2,7 +2,10 @@
                         Settings
                     </h1>
                     <div class="box">
-                        <p>[Toggle gifs]</p>
+                        <p>
+                            <button class="toggleon" id="giftoggle" onclick="freezegifs()">Pause gifs</button>
+                            <button class="toggleoff" id="giftoggle" onclick="resumegifs()">Play gifs</button>
+                        </p>
                         <p>[Toggle theme]</p>
                     </div>
                     <h1>
@@ -15,8 +18,8 @@
                                     <div class="album">
                                         <img id="trackart" src="#" alt="album cover">
                                     </div>
-                                    <div class="cd">
-                                        <img src="../../../img/home/cd.gif" alt="cd" style="width: 100%;">
+                                    <div class="freeze" id="cd">
+                                        <img src="../../../img/home/cd.png" alt="cd" style="width: 100%;">
                                     </div>
                                 </div>
                                 <div class="trackInfo">

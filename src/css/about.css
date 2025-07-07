@@ -66,20 +66,10 @@
 }
 
 .tablinks{
-    font-family: 'Mali';
-    font-weight:600;
     font-size: 1.25em;
-    color:var(--white);
-    background:var(--transparent);
-    border: 1px solid var(--transparent);
     margin: 5px;
     margin-left: 35px;
     margin-right: 35px;
-}
-
-.tablinks:hover{
-    color:var(--red);
-    cursor: pointer;
 }
 
 li.navi{

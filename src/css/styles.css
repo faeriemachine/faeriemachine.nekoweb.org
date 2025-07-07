@@ -255,12 +255,12 @@ figure {
     transition: all .2s ease;  
   }
 
-.neighbour{
+#neighbour{
   display: inline-block;
   transition: all .2s ease;  
 }
 
-.button:hover, .link:hover, .neighbour:hover{
+.button:hover, .link:hover, #neighbour:hover{
   transition: all .2s ease;  
   transform: scale(1.1); 
 }
@@ -310,6 +310,25 @@ figure {
 
 #top:hover {
   background-color: #555;
+}
+
+button{
+  font-family: 'Mali';
+  font-weight:600;
+  color:var(--white);
+  background:var(--indigo);
+  border: 1px solid var(--transparent);
+  border-radius: 25px;
+}
+
+button:hover{
+  color:var(--red);
+  cursor: pointer;
+}
+
+#giftoggle{
+  font-size: 0.8em;
+  padding: 5px;
 }
 
 /* Breathing element */
@@ -497,7 +516,7 @@ figure {
     position: sticky;
 }
 
-.cd {
+#cd {
     max-width: 69%;
     z-index: 1;
     position: absolute;
@@ -601,7 +620,7 @@ nav, aside{
       }
   }
   
-    .cd{
+    #cd{
       max-width: 65%;
     }
 }
