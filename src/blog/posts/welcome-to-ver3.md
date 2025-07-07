@@ -24,7 +24,7 @@ But you know what's the most exciting part of all of this? I'm able to write my 
 
 For optimal accessibility, I've also included a light/dark mode CSS toggle, as well as a play/stop gifs toggle! These were things I neglected to add to the site's past iterations, fearing that setting it up would've been too complicated. Luckily for me, they were actually pretty simple, and I have to give my thanks to [SwiftyHQ's CSS toggle guide](https://swiftyshq.neocities.org/blog/2025-06-29-Style-Switching-Creating-Themes/) and [Solaria's freezing gif tutorial](https://solaria.neocities.org/guides/gifpausetut) for helping me make sense of going about these things.
 
-And hey, I finally finished my [links page](/link) after all these years! It's literally been in the works since 2023, but I could never figure out a good way of presenting it. This time though, I decided to just say 'fuck it' and use my base nunjucks file for it. Maybe I'll find another, better way of presenting my favourite links, but for now I'm okay with the way it looks and operates.
+And hey, I finally finished my [links page](/links) after all these years! It's literally been in the works since 2023, but I could never figure out a good way of presenting it. This time though, I decided to just say 'fuck it' and use my base nunjucks file for it. Maybe I'll find another, better way of presenting my favourite links, but for now I'm okay with the way it looks and operates.
  
 I also have a new little page dedicated to [my pets](/pets)! It's not anything too fancy by any means, but it's something I've been wanting to make since I started expanding my website back in 2023, so I figured that now would be a good time to put one together. 
 
