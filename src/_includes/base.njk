@@ -23,26 +23,31 @@
 
 <body>
 <div class="container">
+<p style="text-align:center;margin:0;padding:0;">
   <a class="skip-to-nav-link" href="#navigation">
                 skip to navigation
             </a>
-
+  </p>
             <button onclick="topFunction()" id="top" title="Go to top">Back to Top</button>
   <div class="header">
       <header>{% include 'header.njk' %}</header>
   </div>
   <div class="maincont">
-    <div class="leftside">
-      <aside>{% include 'sidebar.njk' %}</aside>
+      <div class="navigation">
+       <nav>{% include 'navigation.njk' %}</nav>
     </div>
+
     <div class=content>
        <main>
+       <a id="maincont"></a>
        {{ content | safe }}
        </main>
     </div>
-    <div class="navigation">
-       <nav>{% include 'navigation.njk' %}</nav>
+
+    <div class="sidebar">
+      <aside>{% include 'sidebar.njk' %}</aside>
     </div>
+
   </div>
   <div class="footer">
     <footer>{% include 'footer.njk' %}</footer>

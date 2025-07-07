@@ -117,7 +117,7 @@ form select{
     border-top-right-radius: 100px;
 }
 
-.leftside {
+.sidebar {
 	  flex:1;
     width: 205px;
     overflow-y: auto;
@@ -332,16 +332,16 @@ button:hover{
 
 /* Scrollbars */
   /* Firefox */
-  .leftside, .navigation {
+  .sidebar, .navigation {
     scrollbar-width: thin;
   }
 
   /* Chrome, Edge, and Safari */
-  .leftside::-webkit-scrollbar, .navigation::-webkit-scrollbar {
+  .sidebar::-webkit-scrollbar, .navigation::-webkit-scrollbar {
     width: 10px;
   }
 
-  .leftside::-webkit-scrollbar-thumb, .navigation::-webkit-scrollbar-thumb {
+  .sidebar::-webkit-scrollbar-thumb, .navigation::-webkit-scrollbar-thumb {
     border-radius: 25px;
     border: 0px none #ffffff;
   }
@@ -461,6 +461,10 @@ button:hover{
 
 @media only screen and (max-width: 980px) {
 
+.skip-to-nav-link {
+    display:block;
+}
+
 body{
   font-size: 12px;
 }
@@ -471,10 +475,6 @@ p {
 
 .title{
   font-size: 14px;
-}
-
-.skip-to-nav-link {
-    display:block;
 }
 
 #top {
@@ -506,7 +506,7 @@ p {
   order:1;
 }
 
-.leftside {
+.sidebar {
       order:3;
       width: 100%;
       height: fit-content;
