@@ -2,7 +2,7 @@
 layout: post.njk
 title: Welcome to Faeriemachine 3.0!
 description: An introduction to my 3.0 site, and talking about what I learned along the way!
-date: 2025-07-28
+date: 2025-07-11
 author: Kian Quinn
 tags:
   - 2025
