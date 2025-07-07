@@ -74,6 +74,7 @@ mark{
 form select{
     color: var(--cyanblue);
     background: var(--darkmagenta);
+    border: 3px solid var(--indigo);
 }
 
 .date{
