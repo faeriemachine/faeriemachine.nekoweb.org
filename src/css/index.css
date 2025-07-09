@@ -14,7 +14,7 @@
 
 #introduction{
     overflow: hidden;
-    height: 200px;
+    height: fit-content;
     text-align: center;
 }
 
