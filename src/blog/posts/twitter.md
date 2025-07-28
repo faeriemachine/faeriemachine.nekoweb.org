@@ -1,0 +1,40 @@
+---
+layout: post.njk
+title: Twitter makes me want to be dead
+description: A personal rant detailing my greivances with Musk-era Twitter
+date: 2023-10-03
+author: Kian Quinn
+tags:
+  - 2023
+  - Rant
+  - Technology
+  - Social media
+---
+
+<a href="https://twitter.com/Shayan86/status/1710707264988868848" target="blank"><img src="../../../img/blog/posts/Screenshot_12.png" alt="A tweet from Twitter user Shayan Sardarizadeh. It is the start of a thread on misinformation about Palestine." width="60%" style="float:left;padding:10px"></a>
+
+*EDIT 10/08/23:* I wanted to update this post because recent events in Palestine have reminded me of this blog post I made, because it's just one of the many things I despise about the new Twitter. Of course, I certainly don't expect Elon Musk to <i>not</i> be a zionist, but this just goes to show how much the new Twitter has failed to curb the rampant misinformation campaigns that have been able to gain traction on the website now that Twitter Blue is available to anyone who wants to pay and have their tweets be amplified. In the wake of human rights abuses, we're seeing just how vital of a role social media is playing on the narrative of Palestine, both on the ends of creating propaganda and being the one to fall for propaganda. Elon Musk is not only being oblivious about this out of ignorance, but also maliciously hurting real people by letting misinformation and conspiracy theories gain traction on his platform, because at least it earns him just a portion of what he lost in engagement revenue.
+
+---
+
+(This article is discussing the current state of the social media platform 'X', but I refuse to call it that. To me it's always going to be Twitter, and this is partially out of spite of Elon Musk.)
+
+We all joke that Twitter is a cesspool of a website, and this has become especially prevalent ever since the Elon Musk takeover. Giving everyone the ability to be verified if they want to pay for it is clearly a bad idea, because now that Twitter Blue subscribers have the perk of having their posts be boosted by the algorithim so that they're the first to show up under tweet replies and trending topics, the alt-right have been able to spread their ideas with ease on the platform. Whenever anything that has to do with politics or- god forbid- human rights starts trending, you bet your ass there'll be some alt-right Twitter Blue user spewing some of the most heinous shit about the topic at hand (sometimes it'll be some conspiracy theory content, for good measure of course,) and this will be the first thing you're forced to see!
+
+And even before the alt-right got their soapboxes handed to them on silver platters, Twitter began developing a culture of... well, it's hard to explain, but the best way I can describe it is: *2014-2016 Tumblr 2.0...* Having been through that era of Tumblr myself, it's equally as embarrassing as it is horrifying seeing the same ideology of mental health and activism bastardization make the rounds on Twitter and TikTok in the modern era. And here I was hoping that we had all moved on from these things, but I suppose that was wishful thinking.
+
+Still, it's easy to see why people label Twitter as being a flaming hot pile of garbage for a social media platform, and part of me has to agree. No matter what side of the political spectrum you're on, it's full of reactionaries because that's the nature of social media- outrage gets engagement, engagement gets your tweets to circulate even farther outside of your circle, and that's how you "win" at social media. Of course, I'm no saint and have been guilty of this in the past, but in recent times I've been able to recognize these patterns within myself and the social media platforms that enables my anger issues in order to tell myself when to turn off my phone. That and I've also moved all of my "discourse-y" opinion tweets to my private account where only my friends are following me.
+
+But that's the thing with Twitter that keeps me going back to it, even after Elon has effectively gutted it and made it a husk of the platform that it once was- the connection with my friends. Believe it or not, I've been on the platform for a wopping *11 years,* and while I've gone through a lot of accounts during that time, the one that's stuck around the longest is my current private account. See, if it weren't for the fact that I can have a private account that only my friends follow, where I can make text-based posts that only they can see and nobody else, I would've already moved to another platform like Tumblr for my microblogging. This is the feature that a lot of Twitter competitors lack that I feel is a dealbreaker for me when it comes to making one of them my main social media account, especially when I've had problems about people with bad intentions seeing my posts about my personal life that are supposed to be kept to my friends and only my friends.
+
+Another thing keeping me on the platform is the fact that, since I've been on the platform for so long, I've made practically all of my connections with my friends through Twitter, and all of us picking up and moving to the same platform as our main account is much easier said than done. While some have already picked up and moved to other sites- which I try desperately to keep up with despite them not being my main platforms- most of them have continued to stay on Twitter, largely for the same reason- *connection with long-time friends.*
+
+I think that's why this whole shitshow just makes me so upset and angry, because all of my connections with my friends are being put on the line because some millionaire manchild had an emotional fit while being locked into buying the platform, and as a result is so stupidly desperate to make back the money he lost that he will axe everything that doesn't scream money to his pile of money that's already a mountain tall. As of typing this blog entry, Elon has decided to toss away Circles - which works similarly to Instagram's "close friends" function where you can make posts that are exclusive to a group of mutuals whom you approve to see these posts- all because someone complained about not getting enough engagement on their tweets and because all of his friendless Twitter Blue subscribers think that it's a useless feature (*hint: it's because they don't have a close circle of friends who they can confide in*). On top of this, friends are getting their accounts shadowbanned and suspended left and right for no reason, and the hopes of getting their account's functions restored are close to impossible because Elon laid off nearly every remaining human employee working for Twitter Support. My friend's accounts are dropping like flies, and I have to watch as their entire archives on the platform are wiped clean and their connection with me severed, all because of this fucking troglodyte.
+
+It's especially cumbersome when, as a physically disabled person with very low energy levels, I don't have much energy to go out and meet people in my area. This is how Twitter became such a vital part of my life, offering me a window into the outside world and a chance to connect with people from all walks of life- many of whom are also physically disabled and will automatically be understanding of my situation.
+
+Twitter is bleeding to death, slowly and painfully, and I believe that if Elon doesn't give up and shut the platform down altogether or sells off one day, then it will continue to hemorrhage out until it's physically impossible to use anymore. A huge method of communication and human connection is going to continue to suffer an agonizing death as it's slowly disemboweled, and it's all because Mr. Emerald Mines is too prideful to consider his platform a lost cause.
+
+<img src="../../../img/blog/posts/twitter.png" alt="Mike Stoklasa from RedLetterMedia with text that reads 'Twitter makes me want to be dead'" width="100%">
+
+*TLDR;* Twitter sucks but it's given me such a vital method of human connection that I so desperately need, and I hope the worst for Elon Musk.
