@@ -204,3 +204,8 @@ button:hover{
             color: var(--indigo);
           }
         }
+
+/* Follow on Nekoweb button */
+.follow {
+  background: var(--indigo);
+}
