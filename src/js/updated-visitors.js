@@ -1,6 +1,6 @@
   // this script is under the MIT license (https://max.nekoweb.org/resources/license.txt)
   
-  let username = "tri4ge"; // <<<--- Insert your username here!
+  let username = "faeriemachine.nekoweb.org"; // <<<--- Insert your username here!
   
   (async () => {
     try {
