@@ -32,6 +32,7 @@ Without further adieu, let's get into the summary of my weekend in downtown Otta
 - After dropping my fursuit off, I'd meet up with a group of friends to have some dinner at a Japanese ramen restaurant, which was super delicious! I ended up getting a vegetarian miso with a Tomomasu watermelon-flavoured drink. Everything was super tasty, and I've been thinking about going to my nearest location ever since...
 - Not much happened for the rest of the night- we meant to go to the shibari panel but other things got in our way, and before we could go to the raves that night, I ended up getting too tired and sore from everything and decided to call it a night. I'd get to my room around 10 to 11pm, and crashed hard for the night.
 
+<a href="https://www.furtrack.com/p/1305083"><img src="../../../img/blog/posts/1305083-08b6a2356ecf3be4fd76d1fbcf9a1b41.jpg" alt="A large group of fursuiters" width="100%"></a>
 <img src="../../../img/blog/posts/GxY185mX0AARNjd.png" alt="A bowl of vegetarian miso" width="49%"> 
 <img src="../../../img/blog/posts/GxY186jX0AAi1eJ.png" alt="A bottle of Tomomasu watermelon flavoured carbonated drink" width="49%">
 
