@@ -37,7 +37,7 @@ To give a summary of my events, I'll write a brief bulletpoint list of what I wa
                      
 - Afterwards, we all headed to our rooms. Except I mistakenly left all my keycards in my room for some dumb reason, so I had to go back down and ask for another keycard. Crashed pretty hard that night, but unfortunately didn't end up sleeping all that well for the next day.</li>
           
-<img src="https://files.catbox.moe/ump36q.jpg" alt="A table and several chairs covered in plushies" width="100%";>
+<img src="https://files.catbox.moe/ump36q.jpg" alt="A table and several chairs covered in plushies" width="100%">
 
 **Saturday:**
 
@@ -69,7 +69,7 @@ All in all it was an incredible time, and I'm not only planning on going next ye
 <img src="https://files.catbox.moe/oiyskb.jpg" alt="A pair of fursuiters posing for a picture" width="49%">
 
 <img src="https://files.catbox.moe/ua22vk.jpg" alt="A group of fursuiters at the rave" width="49%">
-<img src="https://files.catbox.moe/bnyvv9.jpg" alt="A pair of fursuiters at a panel room" width="49%;">
+<img src="https://files.catbox.moe/bnyvv9.jpg" alt="A pair of fursuiters at a panel room" width="49%">
 
 And for good measure, here's my big haul from the convention this year! I think my favourite things I got this year include my fursuit kandi and collar, both of the badges I got from some of the wonderful artists vending at the convention (artists are [JefferyDraws](https://jefferydraws.carrd.co/) and [King's Treasures](https://linktr.ee/KingRagnarok) respectively!) the Gatomon and fursuit head base keychains, the Furby and Galarian Ponyta stickers, and the disability pride pin!
           
