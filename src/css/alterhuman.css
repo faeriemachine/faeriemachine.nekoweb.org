@@ -10,7 +10,7 @@ h2{
     padding: 0px;
   }
   
-  #one, #three, #four, #five{
+  #one, #two, #three, #four, #five, #six{
       width: 95%;
       display: flex;
       margin: 0 auto;
@@ -131,7 +131,7 @@ h2{
       flex-direction: column-reverse;
     }
   
-    #three{
+    #three, #five{
       flex-direction: column;
     }
       
