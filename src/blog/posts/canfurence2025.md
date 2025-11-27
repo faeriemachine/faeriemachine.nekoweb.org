@@ -2,7 +2,7 @@
 layout: post.njk
 title: CanFURence 2025
 description: Detailing my time at CanFURence 8 for the 2025 season!
-date: 2025-26-10
+date: 2025-10-26
 author: Kian Quinn
 tags:
   - 2025
