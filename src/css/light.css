@@ -121,7 +121,7 @@ figure {
 }
 
 /* Marquees */
-#buttons-marquee{
+.marqueebox{
     background-color:var(--indigo);
     color: var(--white);
 }

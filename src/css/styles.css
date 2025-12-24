@@ -178,13 +178,7 @@ figure {
 }
 
 /* Marquees */
-.marquee-guts{
-    width: 0%;
-    display: inline-block;
-}
-
-#buttons-marquee{
-    color: white;
+.marqueebox{
     margin: 0px;
     padding: 5px;
 }
@@ -193,6 +187,69 @@ figure {
     margin: 0px;
     height:145px;
     border-radius: 25px;
+}
+
+/* This is what causes the actual smooth scrolling */
+@keyframes scroll-r2l {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Change the '10s' in this to change how fast it scrolls! */
+.scroll-r2l {
+  animation: scroll-r2l 60s linear infinite;
+}
+
+/* Left-to-Right */
+@keyframes scroll-l2r {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.scroll-l2r {
+  animation: scroll-l2r 60s linear infinite;
+}
+
+/* 'Display: Flex' is extremely important to use here so all the items inside the marquee line up correctly, and the duplicated container lines up properly with the original */
+.headermarquee {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: unset;
+}
+
+.headermarquee-items {
+  display: flex;
+  flex-shrink: 0;
+  height: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+/* Changes to this class will only affect the children
+of the marquee-items, and not all of their descendants.
+Make changes here if you want spaces in-between the
+marquee items or other effects and styles!*/
+.headermarquee-items > * {
+  margin: 0;
+  height: 31px;
+}
+
+.paused {
+  -webkit-animation-play-state:paused;
+  -moz-animation-play-state:paused;
+  -o-animation-play-state:paused;
+  animation-play-state:paused;
 }
 
 /* img */
