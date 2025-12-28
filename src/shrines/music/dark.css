@@ -1,0 +1,25 @@
+/* dark.css */
+:root {
+	--b1: #40283b;
+	--b2: #20131d;
+	--text: #FFEDD9;
+	--a: #89c1f9;
+	--dead: white;
+	--h: #c1a9f0;
+}
+
+a {
+  color: var(--a);
+}
+
+h1, h2, h3, h4 {
+  color: var(--a);
+}
+
+#main {
+	background: var(--b2);
+}
+
+#contents {
+	background: var(--b2);
+}

@@ -1,0 +1,58 @@
+[data-component="slideshow1"] .slide1 {
+	display: none;
+}
+
+[data-component="slideshow1"] .slide1.active {
+	display: block;
+}
+
+[data-component="slideshow2"] .slide2 {
+	display: none;
+}
+
+[data-component="slideshow2"] .slide2.active {
+	display: block;
+}
+
+.slide-img{
+    box-shadow: 1px 1px 5px black;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+#one{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#pet-desc{
+    height: 325px;
+    width: 400px;
+    text-align: left;
+    overflow-y: scroll;
+  }
+
+  #pet-info{
+    height: 150px;
+    overflow-y: scroll;
+  }
+
+  @media only screen and (max-width:980px) {
+  
+    #one {
+      flex-direction: column;
+    }
+
+    .pet-image {
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+    #pet-desc {
+      height: 235px;
+      width: auto;
+  }
+
+  }

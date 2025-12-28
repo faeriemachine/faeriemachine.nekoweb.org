@@ -1,0 +1,211 @@
+:root{
+    --transparent: #00000000;
+    --black: #000;
+    --white: #fff;
+    --pastelyellow: #FFFFE6;
+    --pastelorange: #FFF1CC;
+    --orange: #ffb06a;
+    --red: #E8315D;
+    --darkred: #7f0121;
+    --magenta: #C23D86;
+    --indigo: #5128A4;
+    --midnightblue: #191970;
+    --royalblue: #01509e;
+}
+
+html,
+body {
+    background: url("../img/home/flowers.gif");
+    color: var(--darkred)
+}
+
+a {
+    color: var(--royalblue);
+}
+  
+a:hover {
+    color: var(--red);
+}
+
+.footer a{
+    color: var(--white);
+}
+
+#navigation{
+    color: var(--white);
+}
+
+#navigation:hover {
+    color: var(--white);
+}
+
+.hovertext{
+    color: var(--royalblue)
+}
+
+.unavailable{
+    color: var(--black)
+}
+
+hr{
+    color: var(--orange);
+}
+
+h1{
+  background-color: var(--indigo);
+  color: var(--white);
+}
+
+h2{
+  color: var(--indigo);
+  background: var(--pastelorange);
+}
+
+h3{
+  color: var(--indigo);
+}
+
+mark{
+  color: var(--indigo);
+  background: var(--pastelorange);
+}
+
+form select{
+    color: var(--indigo);
+    background: var(--pastelorange);
+    border: 3px solid var(--indigo);
+}
+
+textarea{
+  color: var(--black);
+  background: var(--white);
+}
+
+
+.date{
+  color:#7f0121d4;
+}
+
+.box{
+    background-color: var(--pastelyellow);
+    border: 3px solid var(--indigo);
+}
+
+/* section styling */
+
+.header{ 
+    background-image: url("../img/home/headerlight.jpg"); 
+}
+
+.sidebar {
+	  background-color:var(--magenta);
+}
+
+.content {
+    border: 2px ridge var(--midnightblue);
+    background-image: url("../img/home/contentlight.jpg");
+}
+
+.navigation {
+    background-color: var(--magenta);
+}
+
+.footer {
+	background-color:var(--indigo);
+    color: var(--white);
+}
+
+/* Figures */
+figure {
+  background-color: var(--pastelorange);
+}
+
+/* Marquees */
+.marqueebox{
+    background-color:var(--indigo);
+    color: var(--white);
+}
+
+/* skip buttons */
+.skip-to-nav-link, .skip-to-content-link {
+  background-color:var(--indigo);
+  color: var(--white);
+}
+
+#top {
+  background-color: var(--indigo);
+  color: var(--white);
+}
+
+#top:hover {
+  background-color: #555;
+}
+
+button{
+  color:var(--white);
+  background:var(--indigo);
+  border: 1px solid var(--transparent);
+}
+
+button:hover{
+  color:var(--red);
+}
+
+/* Scrollbars */
+  /* Firefox */
+  .leftside, .navigation {
+    scrollbar-color: var(--white) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  .leftside::-webkit-scrollbar-track, .navigation::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .leftside::-webkit-scrollbar-thumb, .navigation::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+  }
+
+  /* Firefox */
+  .content {
+    scrollbar-color: var(--magenta) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  .content::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .content::-webkit-scrollbar-thumb {
+    background-color: var(--magenta);
+  }
+
+  /* Firefox */
+  .box {
+    scrollbar-color: var(--magenta) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  .box::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .box::-webkit-scrollbar-thumb {
+    background-color: var(--magenta);
+  }
+
+/* Last.FM Widget */
+.nowplayingcard {
+    
+          &:nth-child(odd) {
+            color: var(--indigo);
+          }
+        }
+
+/* Follow on Nekoweb button */
+.follow {
+  background: var(--indigo);
+}

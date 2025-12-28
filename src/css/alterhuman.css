@@ -1,0 +1,193 @@
+h2{
+    position: sticky;
+    top: 0;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.05em;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #one, #two, #three, #four, #five, #six{
+      width: 95%;
+      display: flex;
+      margin: 0 auto;
+  }
+  
+  .intro{
+      width: 75%;
+  }
+  
+  .alterhuman-image{
+      margin: 0 auto;
+  }
+  
+  #introduction{
+      overflow-y: scroll;
+      height: 200px;
+      text-align: center;
+  }
+  
+  .navi{
+      text-align:center;
+      background-color: var(--indigo);
+      margin: 8px auto;
+      width: 80%;
+      border-radius: 50px;
+      max-width: 90%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      list-style-type: none;
+  }
+  
+  .tablinks{
+      font-family: 'Mali';
+      font-weight:600;
+      font-size: 1.25em;
+      color:var(--white);
+      background:var(--transparent);
+      border: 1px solid var(--transparent);
+      margin: 5px;
+      margin-left: 35px;
+      margin-right: 35px;
+  }
+  
+  .tablinks:hover{
+      color:var(--red);
+      cursor: pointer;
+  }
+  
+  #iden{
+      overflow-y: scroll;
+      height: 285px;
+      text-align: center;
+  }
+  
+  #kin{
+    height: 205px;
+    text-align: center;
+    margin: 5px auto;
+  }
+  
+  #kin p{
+    margin: 0px;
+  }
+  
+  #therian-intro{
+    height: 125px;
+    text-align: center;
+    overflow-y: scroll;
+    margin: 0 auto;
+  }
+  
+  #therian-desc{
+    height: 320px;
+    width: 400px;
+    text-align: center;
+    overflow-y: scroll;
+  }
+  
+  /* Images */
+  .alterhuman{
+      width: 115%;
+  }
+  
+  .id {
+      width: 305px;
+      box-shadow: 1px 1px 5px black;
+      margin: 5px;
+      border-radius: 25px;
+  }
+  
+  .kintype {
+    width: 90%;
+    box-shadow: 1px 1px 5px black;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  
+  .theriotype {
+    display: block;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 25px;
+    margin: 5px auto;
+  }
+  
+  .id, .kintype, .theriotype{
+      transition: all .2s ease;  
+    }
+  
+  .id:hover, .kintype:hover, .theriotype:hover{
+    transition: all .2s ease;  
+    transform: scale(1.06); 
+  }
+  
+  @media only screen and (max-width:980px) {
+  
+    #one, #four{
+      flex-direction: column-reverse;
+    }
+  
+    #three, #five{
+      flex-direction: column;
+    }
+      
+    .intro {
+        width: 100%;
+      }    
+  
+      .alterhuman-image{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+      .alterhuman {
+        width: 200px;
+      }
+  
+      .tabs{
+          width: 100%;   
+      }
+  
+      .tablinks{
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 0.9em;
+      }
+  
+      #iden{
+        height: 200px;
+      }
+      
+      .id-image {
+          margin: 0;
+          margin-left: auto;
+          margin-right: auto;
+      }
+  
+      .id {
+          width: 200px;
+      }
+  
+      #kin{
+        height: auto;
+      }
+  
+      .kintype{
+        width: stretch;
+      }
+  
+      .theriotype{
+        width: auto;
+      }
+      
+      #therian-desc {
+        height: 235px;
+        width: auto;
+      }
+  
+    }

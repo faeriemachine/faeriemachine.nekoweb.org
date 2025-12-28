@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    
+   |\---/|
+   | ,_, |
+    \_`_/-..----.
+ ___/ `   ' ,""+ \  sk
+(__...'   __\    |`.___.';
+  (_,...'(_,.`__)/'.....+
+  
+   !! FAERIEMACHINE.NEOCITIES.ORG !!
+    
+   Hi there! I see you're peaking at my website- no worries, I don't mind if you're wanting to see how I did something
+   for reference! Just please don't copy-paste my stuff without at least *some* kind of modification/personalization to it...
+    
+-->
+<html lang="en">
+
+<head>
+  {% include "basehead.njk" %}
+  {% block head %}{% endblock %}
+</head>
+
+<body>
+<div class="container">
+<p style="text-align:center;margin:0;padding:0;">
+  <a class="skip-to-nav-link" href="#navigation">
+                skip to navigation
+            </a>
+            <a class="skip-to-content-link" href="#maincont">
+        skip to content
+      </a>
+  </p>
+            <button onclick="topFunction()" id="top" title="Go to top">Back to Top</button>
+  <div class="header">
+      <header>
+        {% include 'header.njk' %}
+      </header>
+  </div>
+  <div class="maincont">
+      <div class="navigation">
+       <nav>{% include 'navigation.njk' %}</nav>
+    </div>
+
+    <div class=content>
+       <main>
+       <a id="maincont"></a>
+       {{ content | safe }}
+       </main>
+    </div>
+
+    <div class="sidebar">
+      <aside>{% include 'sidebar.njk' %}</aside>
+    </div>
+
+  </div>
+  <div class="footer">
+    <footer>{% include 'footer.njk' %}</footer>
+  </div>
+</div>
+</body>
+<script src="../../../js/scrobbles.js"></script>
+<script src="../../../js/updated-visitors.js"></script>
+<script src="../../../js/backtotop.js"></script>
+<script src="../../../js/tabs.js"></script>
+<script src="../../../js/playgifs.js"></script>
+<script src="../../../js/marquee.js"></script>

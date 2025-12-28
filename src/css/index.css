@@ -1,0 +1,116 @@
+#one, #two{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.welcome{
+    width: 75%;
+}
+
+.welcome-image, .bulletin-image{
+    margin: 0 auto;
+}
+
+#introduction{
+    overflow: hidden;
+    height: fit-content;
+    text-align: center;
+}
+
+.bulletin{
+    width: 280%;
+}
+
+#bulletin-board{
+    overflow-y: scroll;
+    height: 200px;
+    width: 95%;
+    position: relative;
+    z-index: 2;
+}
+
+#three, #five{
+    width: 100%;
+    display: flex;
+}
+
+.now, .journal, .cfl, .update{
+    width: 50%;
+}
+
+#currently, #blog{
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.subtitle{
+    display: block;
+    margin: 5px;
+    font-size: 1.15em;
+    font-weight: 600;
+    color: var(--indigo);
+    background: var(--pastelorange);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#webring{
+    height: 250px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+#cfl, #updates{
+    overflow-y: scroll;
+    height: 200px;
+    text-align: center;
+}
+
+
+/* Images */
+.sorayan-one{
+    width: 105%;
+    position: relative;
+    top: 15px;
+    right: 8px;
+}
+
+.sorayan-two{
+    width: 100%;
+    position: relative;
+    right: -34px;
+    z-index: 1;
+}
+
+@media only screen and (max-width:980px) {
+
+  #one{
+    flex-direction: column-reverse;
+  }
+
+  .welcome {
+    width: 100%;
+  }
+
+  #two{
+    flex-direction: column;
+  }
+
+  .bulletin{
+    width: 100%;
+}
+
+  #currently, #blog {
+    height: 165px;
+  }
+
+.sorayan-one {
+    width: 100%;
+  }
+
+  .sorayan-two {
+    width: 75%;
+  }
+
+}

@@ -1,0 +1,212 @@
+:root{
+    --transparent: #00000000;
+    --black: #000;
+    --white: #fff;
+    --pastelyellow: #FFFFE6;
+    --orange: #ffb06a;
+    --red: #E8315D;
+    --darkmagenta: #661B32;
+    --darkred: #3E1824;
+    --pastelpurple: #EAD5FF;
+    --magenta: #C23D86;
+    --indigo: #341573;
+    --midnightblue: #191970;
+    --cyanblue: #2ddde6;
+}
+
+html,
+body {
+    background: url("../img/home/carpet.jpg");
+    color: var(--pastelyellow)
+}
+
+a {
+    color: var(--cyanblue);
+}
+  
+a:hover {
+    color: var(--red);
+}
+
+.footer a{
+    color: var(--white);
+}
+
+#navigation{
+    color: var(--white);
+}
+
+#navigation:hover {
+    color: var(--white);
+}
+
+.hovertext{
+  color: var(--cyanblue)
+}
+
+.unavailable{
+  color: var(--white)
+}
+
+hr{
+    color: var(--orange);
+}
+
+h1{
+  background-color: var(--indigo);
+  color: white;
+}
+
+h2{
+  color: var(--pastelpurple);
+  background: var(--darkmagenta);
+}
+
+h3{
+  color: var(--pastelpurple);
+}
+
+mark{
+  color: var(--pastelpurple);
+  background: var(--darkmagenta);
+}
+
+form select{
+    color: var(--pastelpurple);
+    background: var(--darkmagenta);
+    border: 3px solid var(--indigo);
+}
+
+textarea{
+  color: var(--white);
+  background: var(--black);
+}
+
+.date{
+  color:#ffc3abd4;
+}
+
+.box{
+    background-color: var(--darkred);
+    border: 3px solid var(--indigo);
+}
+
+/* section styling */
+
+.header{ 
+  background-image: url("../img/home/headerdark.jpg"); 
+}
+
+
+.sidebar {
+	  background-color:var(--darkmagenta);
+}
+
+.content {
+    border: 2px ridge var(--midnightblue);
+    background-image: url("../img/home/contentdark.jpg");
+}
+
+.navigation {
+    background-color: var(--darkmagenta);
+}
+
+.footer {
+	background-color:var(--indigo);
+    color: var(--white);
+}
+
+/* Figures */
+figure {
+  background-color: var(--darkmagenta);
+}
+
+/* Marquees */
+.marqueebox{
+    background-color:var(--indigo);
+    color: var(--white);
+}
+
+/* skip buttons */
+.skip-to-nav-link, .skip-to-content-link {
+  background-color:var(--indigo);
+  color: var(--white);
+}
+
+#top {
+  background-color: var(--indigo);
+  color: var(--white);
+}
+
+#top:hover {
+  background-color: #555;
+}
+
+button{
+  color:var(--white);
+  background:var(--indigo);
+  border: 1px solid var(--transparent);
+}
+
+button:hover{
+  color:var(--red);
+}
+
+/* Scrollbars */
+  /* Firefox */
+  .leftside, .navigation {
+    scrollbar-color: var(--white) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  .leftside::-webkit-scrollbar-track, .navigation::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .leftside::-webkit-scrollbar-thumb, .navigation::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+  }
+
+  /* Firefox */
+  .content {
+    scrollbar-color: var(--orange) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  .content::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .content::-webkit-scrollbar-thumb {
+    background-color: var(--darkmagenta);
+  }
+
+  /* Firefox */
+  .box {
+    scrollbar-color: var(--orange) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+
+  .box::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .box::-webkit-scrollbar-thumb {
+    background-color: var(--orange);
+  }
+
+/* Last.FM Widget */
+.nowplayingcard {
+    
+          &:nth-child(odd) {
+            color: var(--pastelpurple);
+          }
+        }
+
+/* Follow on Nekoweb button */
+.follow {
+  background: var(--indigo);
+}
