@@ -2,10 +2,10 @@
 layout: post.njk
 title: 100 Questions for Webmasters
 description: Questionnaire about webmastery, because I am severely uninspired.
-date: 2025-12-28
+date: 2026-01-10
 author: Kian Quinn
 tags:
-  - 2025
+  - 2026
   - Personal
   - Webdev
 ---
