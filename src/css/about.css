@@ -83,13 +83,23 @@ mark{
 
 @media only screen and (max-width:980px) {
 
+    #one{
+        flex-direction: column;
+    }
+
     .about-image{
-        height: 120px;
-        width: 150%;
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 10px;;
+    }
+
+    .about {
+        width: auto;
     }
 
     #basics{
-        height: 100px;
+        width: auto;
     }
 
     .tabs{
