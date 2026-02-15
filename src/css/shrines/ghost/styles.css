@@ -173,7 +173,7 @@ main{
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   .content {
-    scrollbar-color: #643333 #6a5a48;
+    scrollbar-color: #E3C6C9 #6a5a48;
   }
 
   /* Chrome, Edge, and Safari */
@@ -186,7 +186,7 @@ main{
   }
 
   .content::-webkit-scrollbar-thumb {
-    background-color: #643333;
+    background-color: #E3C6C9;
     border-radius: 10px;
     border: 5px solid #6a5a48;
   }
