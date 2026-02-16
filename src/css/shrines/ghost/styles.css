@@ -1,3 +1,16 @@
+:root{
+    --transparent: #00000000;
+    --white: #fff;
+    --black: #000;
+    --text: #003732;
+    --fontawesome: #82C3D0;
+    --selection: #A095CE;
+    --box-shadow: #35123F;
+    --text-shadow: #6d0b88;
+    --box-bg: #E3C6C9;
+    --box-border: #643333;
+}
+
 /* Font */
 .gfs-neohellenic-regular {
   font-family: "GFS Neohellenic", sans-serif;
@@ -32,7 +45,7 @@ body {
 	padding: 0;
     font-family: "GFS Neohellenic", sans-serif;
     font-size: 1.35em;
-    color: #003732;
+    color: var(--text);
     background: url('../../../img/shrines/ghost/background_1.png');
         background-position: center;
         background-size:cover;
@@ -57,7 +70,7 @@ h1::before, h1::after {
   flex: 1;
   content: '';
   padding: 1px;
-  background-color: #003732;
+  background-color: var(--text);
   margin: 5px;
   border-radius: 5px;
 }
@@ -69,46 +82,33 @@ h2{
 }
 
 .fa-solid{
-    color: #82C3D0;
-    text-shadow: 0px 2px 5px #6d0b88, -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    color: var(--fontawesome);
+    text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
 }
 
 /* Format HR */
 hr {
   display: block;
-  color: #35123F;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 3px;
-} 
-
-.blue {
-  display: block;
   border-width: 1px;
-  color: #003732;
+  color: var(--text);
   margin: 5px;
   border-radius: 5px;
 } 
 
 /* Format selection */
 ::selection{
-  background-color: #A095CE;
-  color:black;
+  background-color: var(--selection);
+  color:var(--black);
 }
 
 /* Containers */
 .container {
-    background-color: #a19e69;
     width: 800px;
     margin: 0 auto;
     margin-top: 3vh;
     padding: 0;
     height: fit-content;
-    box-shadow: 0px 0px 6px 0px #35123F;
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
 }
 
 .header{
@@ -117,7 +117,7 @@ hr {
         background-repeat: no-repeat;
     height: 140px;
     position:relative;
-    border: double black;
+    border: double var(--black);
 }
 
 .headernav{
@@ -132,28 +132,29 @@ main{
       background-repeat: round;
     height: 60vh;
     padding: 35px;
-   border: ridge #643333;
+   border: ridge var(--box-border);
    position: relative;
 }
 
 .content{
-    background-color: #6a5a48;
+    background-image: linear-gradient(rgba(108, 86, 86, 0.6), rgba(108, 86, 86, 0.6)), url('../../../img/shrines/ghost/bg_2.gif');
+      background-position: center;
+      background-repeat: round;
     height: 57vh;
     padding: 10px;
     overflow: scroll;
     overflow-x: hidden;
-    border: ridge #643333;
+    border: ridge var(--box-border);
     text-align: center;
 }
 
 .box{
-    background-color: #E3C6C9;
+    background-color: var(--box-bg);
     text-align: center;
     height: fit-content;
     padding: 5px;
     overflow: hidden;
-    border: solid 1px black;
-    box-shadow: 0px 0px 6px 0px #35123F;
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
 }
 
 .box li{
@@ -173,7 +174,7 @@ main{
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   .content {
-    scrollbar-color: #E3C6C9 #6a5a48;
+    scrollbar-color: var(--box-bg) var(--transparent);
   }
 
   /* Chrome, Edge, and Safari */
@@ -182,19 +183,19 @@ main{
   }
 
   .content::-webkit-scrollbar-track {
-    background: #6a5a48;
+    background: var(--transparent);
   }
 
   .content::-webkit-scrollbar-thumb {
-    background-color: #E3C6C9;
+    background-color: var(--box-bg);
     border-radius: 10px;
-    border: 5px solid #6a5a48;
+    border: 5px solid var(--transparent);
   }
 
 /* Navigation */
 nav a{
-    color: #ffffff;
-    text-shadow: 0px 2px 5px #6d0b88, -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    color: var(--white);
+    text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
     text-decoration: none;
     font-size: 1.75rem;
     font-family: "Wendy One", sans-serif;
@@ -215,17 +216,17 @@ nav li{
 /* Back button */
 .back{
     background-color: 6a5a48;
-    border: solid 1px black;
+    border: solid 1px var(--black);
     padding: 5px;
     position: absolute;
     left: 5px;
     bottom: -25px;
-    box-shadow: 0px 0px 6px 0px #35123F;
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
 }
 
 .back a{
-    color: #ffffff;
-    text-shadow: 0px 2px 5px #6d0b88, -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    color: var(--white);
+    text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
     text-decoration: none;
     font-size: 1.5rem;
     font-family: "Wendy One", sans-serif;
@@ -242,13 +243,55 @@ nav li{
   display: inline-block;
   padding: 5px 10px 0px 10px;
   margin: 0;
-  color: white;
-  text-shadow: 0px 2px 5px #6d0b88, -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+  color: var(--white);
+  text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
 }
 
 .countup span[class*="timeRef"] {
   margin-left: -20px;
   font-size: 1em;
+}
+
+/* Breathing element */
+#fuck {
+     margin-top: 15px;
+     text-align: center;
+     font-weight:bold; 
+     -webkit-animation: pop 1s ease-in-out infinite alternate;
+     animation: pop 1s ease-in-out infinite alternate;
+     -moz-animation: pop 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes pop {
+    from {
+    transform:scale(0.75)
+    }
+    
+    50% {
+    transform:scale(1)
+    }
+    
+    to {
+    transform:scale(0.75)
+    }
+    }
+    
+    @-webkit-keyframes pop {
+    from {
+    -webkit-transform:scale(0.75)
+    
+    }
+    
+    50% {
+    -webkit-transform:scale(1)
+    
+    }
+    
+    to {
+    -webkit-transform:scale(0.75)
+    
+    }
+    
 }
 
 /* Img */
