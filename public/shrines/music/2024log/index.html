@@ -1,0 +1,367 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+    
+   |\---/|
+   | ,_, |
+    \_`_/-..----.
+ ___/ `   ' ,""+ \  sk
+(__...'   __\    |`.___.';
+  (_,...'(_,.`__)/'.....+
+  
+   !! FAERIEMACHINE.NEOCITIES.ORG !!
+    
+   Hi there! I see you're peaking at my website- no worries, I don't mind if you're wanting to see how I did something
+   for reference! Just please don't copy-paste my stuff without at least *some* kind of modification/personalization to it...
+    
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Listening Log | FAERIEMACHINE</title>
+    <link rel="icon" type="image/x-icon" href="/music/images/tumblr_inline_p9dz7zfuva1vir2v3_500.png">
+    
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
+
+<link id="theme" rel="stylesheet" type="text/css" href="/music/light.css" />
+
+<style type="text/css">
+html{
+ height: 100%; 
+}
+
+body{
+background:linear-gradient(0deg, rgba(3, 191, 198, 0.31), rgba(3, 191, 198, 0.31)), url(/music/images/music_notes_2.gif);
+animation: moveIt 50s linear infinite;
+overflow-x: auto;
+color: var(--text);
+font-family: 'Mali';
+}
+
+@keyframes moveIt {
+  from {background-position: bottom left;}
+  to {background-position: top right;}
+}
+
+a {
+  text-decoration: none;
+  color: var(--a);
+  }
+
+img{
+  transition: all .2s ease;  
+}
+
+img:hover{
+  transform: scale(1.1); 
+}
+
+a:hover{
+  color: #E8315D;
+}
+
+#toggle:hover{
+  transform: scale(1.1); 
+}
+
+.update{
+  transition: all .2s ease;  
+}
+
+.update:hover{
+  transform: scale(1.02); 
+}
+
+mark{
+  color: white;
+  background-color: #5128A4;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+h1, h2, h3, h4{
+  color: var(--h);
+  margin: 5px;
+}
+
+h2{
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  z-index: 2;
+  position: sticky;
+}
+
+ul{
+  margin-left: -1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.title {
+  color: #06545A;
+  text-align: right;
+  font-style: italic;
+  font-size: 2.5em;
+  width: 75%;
+}
+
+.icon {
+  background-color: #5128A4;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #ffffff;
+  width: 100%;
+  margin: 5px 0px;
+  border-radius: 25px;
+  top: 5px;
+}
+
+.rounded{
+  border: 2px solid #df6c49;
+  border-radius: 25px;
+}
+
+.box{
+  border: 3px solid #5128A4;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 25px;
+  padding: 0px 5px;
+  margin: 5px;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .box {
+    scrollbar-width: thin;
+    scrollbar-color: #06545a var(--b1);
+  }
+
+  /* Chrome, Edge, and Safari */
+  .box::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .box::-webkit-scrollbar-track {
+    background: var(--b1);
+  }
+
+  .box::-webkit-scrollbar-thumb {
+    background-color: #06545a;
+    border-radius: 25px;
+    border: 0px none #ffffff;
+  }
+
+#container{
+  margin: 0 auto;
+  background-image: url('/music/images/music_notes_6.gif');
+  width: 915px;
+  height: fit-content;
+  padding: 5px;
+  border: double black;
+}
+
+#wrapper{
+  height: fit-content;
+}
+
+#left{
+  width: 710px;
+  height: fit-content;
+  text-align: center;
+  order:1;
+}
+
+#main{
+  background-color: var(--b1);
+  height: 45rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.album{
+  width: 30%;
+  box-shadow: 1px 1px 5px black;
+  margin: 5px;
+}
+
+.info{
+  text-align: left;
+}
+
+.date{
+  border-top: dashed #df6c49;
+  padding: 5px;
+  display: block;
+  width: 100%;
+}
+
+#right{
+  width: 280px;
+  text-align: center;
+  order:2;
+}
+
+#contents{
+  background-color: var(--b2);
+  height: 195px;
+  height: fit-content;
+}
+
+#toggle{
+  margin: 0 auto;
+  background: transparent;
+  border: transparent;
+  z-index: 1;
+  color: var(--a);
+  font-family: 'Mali';
+  font-size: 15px;
+  transition: all .2s ease;  
+}
+
+.deadlink{
+  color: var(--dead);
+}
+
+/* Media query */
+@media only screen and (max-width: 800px) {
+
+.flex {
+  flex-wrap: wrap;
+}
+
+#wrapper{
+  width: 20rem;
+}
+
+.title{
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#container{
+  width: 18rem;
+}
+
+.box{
+  width: 16.5rem;
+}
+
+#main{
+  margin-bottom: -0.5rem;
+}
+
+.album{
+  width: 97%;
+  margin-bottom: 1rem;
+}
+
+#left{
+  order: 1;
+}
+
+#right{
+  order: 2;
+  margin-top: 1rem;
+}
+
+.icon{
+  width: 18rem;
+}
+
+}
+
+</style>
+</head>
+<body>
+<h1>...2024 LISTENING LOG</div>
+<div id="container">
+  <div id="wrapper" class="flex">
+    <div id="left">
+      <div id="main" class="box">
+        <h2 id="one">I Just Wanted To Say... - Ezra Exorcism</h2>
+        <img class="album" src="https://f4.bcbits.com/img/a1505467693_16.jpg" align="right";>
+        <span class="info">
+            <p><mark>Type:</mark> Album </p>
+            <p><mark>Genre:</mark> Break/ragga/mashcore, speedcore, uptempo</p>
+            <p><mark>Released:</mark> October 4, 2024</p>
+            <p><mark>Links:</mark> <a href="https://ezhd.bandcamp.com/album/i-just-came-to-say" target="_blank">Bandcamp</a></p>
+            <p><mark>Highlights:</mark> Carry Me Home..., Nothing Was Saved...,</p>
+        </span>
+
+        <hr class="rounded">
+
+        <p>Baby's first listening log entry! You'll have to forgive me, I'm not exactly the best at reviewing music, but I still wanted to have a space for me to talk about my favourite music and why I love them so much!</p>
+        <p>You may have heard Ezra's work from the collaborative project <i>Bape Fiends</i> from either of the <a href ="https://faviconrecords.bandcamp.com/album/bape-fiends-presents-bape-fiends">two</a> <a href="https://ezhd.bandcamp.com/album/bape-ii-fiends">albums</a> that she's released with <a href="https://sistermaple.bandcamp.com/">Sister Maple</a>. Through this solo piece, Ezra presents 6 songs about love, "in my secret language."</p>
+        <p>With a wonderful variety of samples used in each track that still manage to feel coherent, it makes them stand on their own as their own unique pieces of art, while also providing a fantastic package when they're all grouped together in this album. None of the tracks sound like each other, with the exception of the ear-splitting gabber kicks that unify each track together.</p>
+        <p>Upon my first listen while stoned as hell, I was pleasantly surprised by how beautifully crafted this entire album is, and I've since listened to this album several ways through as of writing up this log entry, repeating each track individually several times. With every repeat, I feel more and more sure that this is going to become a classic mashcore album for me in the future, and is going to be one of my top recommended albums for those wanting to get into break/mashcore in general.</p>
+
+        <span class="date">Published: 17/11/24</span>
+      </div>
+    </div>
+    <div id="right">
+        <div class="icon">TABLE OF CONTENTS</div>
+        <div id="contents" class="box">
+            <button onclick="toggleTheme()" id="toggle" title="Light/Dark mode">Light/Dark mode ☀</button>
+            <script>
+                function toggleTheme() {
+                    // Select the <link> element
+                    let theme = document.getElementById('theme');
+        
+                    // Toggle between light.css and dark.css
+                    if (theme.getAttribute('href') == '/music/light.css') {
+                        theme.setAttribute('href', '/music/dark.css');
+                    } else {
+                        theme.setAttribute('href', '/music/light.css');
+                    }
+                }
+            </script>
+            <h3>DIRECTORY</h3>
+            <ul>
+                <li><a href="#one">I Just Wanted To Say... - Ezra Exorcism</a>, 17/11/24</li>
+            </ul>
+            <h3>NAVIGATION</h3>
+                <p><span class="deadlink">2024</span></li> « » <a href="/music/logs/2025">2025</a></p>
+                <p><a href="/music/home">BACK</a></li> || <a href="/home">HOME</a></p>
+                <img src="/music/images/tenor-3104541809.gif" alt="kitten with headphones" style="margin: 5px;">
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<script>
+    /* OpenCity */ 
+    function openCity(evt, cityName) {
+       var i, tabcontent, tablinks;
+       tabcontent = document.getElementsByClassName("tabcontent");
+       for (i = 0; i < tabcontent.length; i++) {
+           tabcontent[i].style.display = "none";
+       }
+       tablinks = document.getElementsByClassName("tablinks");
+       for (i = 0; i < tablinks.length; i++) {
+           tablinks[i].className = tablinks[i].className.replace(" active", "");
+       }
+       document.getElementById(cityName).style.display = "block";
+       evt.currentTarget.className += " active";
+   }
+ 
+   // Get the element with id="defaultOpen" and click on it
+   document.getElementById("defaultOpen").click();
+ 
+ 
+ /* Dropdown menu */
+ $("input[type='checkbox']").on("change", function(){
+   caret = $(this).siblings("label").children("span");
+   caret.html() == "▸" ? caret.html("▾") : caret.html("▸");
+ })
+ </script>
+</html>

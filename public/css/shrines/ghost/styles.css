@@ -1,0 +1,336 @@
+:root{
+    --transparent: #00000000;
+    --white: #fff;
+    --black: #000;
+    --text: #003732;
+    --fontawesome: #82C3D0;
+    --selection: #A095CE;
+    --box-shadow: #35123F;
+    --text-shadow: #6d0b88;
+    --box-bg: #E3C6C9;
+    --box-border: #643333;
+}
+
+/* Font */
+.gfs-neohellenic-regular {
+  font-family: "GFS Neohellenic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gfs-neohellenic-bold {
+  font-family: "GFS Neohellenic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.gfs-neohellenic-regular-italic {
+  font-family: "GFS Neohellenic", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.gfs-neohellenic-bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* HTML Body */
+html{
+    height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-size: 1.35em;
+    color: var(--text);
+    background: url('../../../img/shrines/ghost/background_1.png');
+        background-position: center;
+        background-size:cover;
+}
+
+/* Format Text*/
+p{
+    margin: 0;
+    padding: 5px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style:italic;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}   
+
+h1::before, h1::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: var(--text);
+  margin: 5px;
+  border-radius: 5px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.25em;
+    margin: 5px;
+}
+
+.fa-solid{
+    color: var(--fontawesome);
+    text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+}
+
+/* Format HR */
+hr {
+  display: block;
+  border-width: 1px;
+  color: var(--text);
+  margin: 5px;
+  border-radius: 5px;
+} 
+
+/* Format selection */
+::selection{
+  background-color: var(--selection);
+  color:var(--black);
+}
+
+/* Containers */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 3vh;
+    padding: 0;
+    height: fit-content;
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
+}
+
+.header{
+    background-image: url('../../../img/shrines/ghost/banner_1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+    height: 140px;
+    position:relative;
+    border: double var(--black);
+}
+
+.headernav{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+main{
+    background-image: url('../../../img/shrines/ghost/bg_4.jpg');
+      background-position: center;
+      background-repeat: round;
+    height: 60vh;
+    padding: 35px;
+   border: ridge var(--box-border);
+   position: relative;
+}
+
+.content{
+    background-image: linear-gradient(rgba(108, 86, 86, 0.6), rgba(108, 86, 86, 0.6)), url('../../../img/shrines/ghost/bg_2.gif');
+      background-position: center;
+      background-repeat: round;
+    height: 57vh;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border: ridge var(--box-border);
+    text-align: center;
+}
+
+.box{
+    background-color: var(--box-bg);
+    text-align: center;
+    height: fit-content;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
+}
+
+.box li{
+    text-align: left;
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
+.one, .two {
+    width: 50%;
+    margin: 5px;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .content {
+    scrollbar-color: var(--box-bg) var(--transparent);
+  }
+
+  /* Chrome, Edge, and Safari */
+  .content::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .content::-webkit-scrollbar-track {
+    background: var(--transparent);
+  }
+
+  .content::-webkit-scrollbar-thumb {
+    background-color: var(--box-bg);
+    border-radius: 10px;
+    border: 5px solid var(--transparent);
+  }
+
+/* Navigation */
+nav a{
+    color: var(--white);
+    text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-family: "Wendy One", sans-serif;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    padding: 10px;
+}
+
+/* Back button */
+.back{
+    background-color: 6a5a48;
+    border: solid 1px var(--black);
+    padding: 5px;
+    position: absolute;
+    left: 5px;
+    bottom: -25px;
+    box-shadow: 0px 0px 6px 0px var(--box-shadow);
+}
+
+.back a{
+    color: var(--white);
+    text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Wendy One", sans-serif;
+}
+
+/* Countup timer */
+.countup {
+  text-align: center;
+  margin: 0px;
+}
+.countup .timeel {
+  font-family: "Wendy One", sans-serif;
+  font-size: 1.75em;
+  display: inline-block;
+  padding: 5px 10px 0px 10px;
+  margin: 0;
+  color: var(--white);
+  text-shadow: 0px 2px 5px var(--text-shadow), -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+}
+
+.countup span[class*="timeRef"] {
+  margin-left: -20px;
+  font-size: 1em;
+}
+
+/* Breathing element */
+#fuck {
+     margin-top: 15px;
+     text-align: center;
+     font-weight:bold; 
+     -webkit-animation: pop 1s ease-in-out infinite alternate;
+     animation: pop 1s ease-in-out infinite alternate;
+     -moz-animation: pop 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes pop {
+    from {
+    transform:scale(0.75)
+    }
+    
+    50% {
+    transform:scale(1)
+    }
+    
+    to {
+    transform:scale(0.75)
+    }
+    }
+    
+    @-webkit-keyframes pop {
+    from {
+    -webkit-transform:scale(0.75)
+    
+    }
+    
+    50% {
+    -webkit-transform:scale(1)
+    
+    }
+    
+    to {
+    -webkit-transform:scale(0.75)
+    
+    }
+    
+}
+
+/* Img */
+.floatyone{
+    position: absolute;
+    left: -28px;
+    top: -25px;
+}
+
+.floatytwo{
+    position: absolute;
+    right: -35px;
+    bottom: -70px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 980px) {
+
+    .container{
+        width:100%;
+    }
+
+    nav a{
+        font-size: large;
+    }
+
+    .flex{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .one, .two{
+        width: inherit;
+    }
+
+    .floatytwo{
+        right: 0px;
+        bottom: -65px;
+        width: 125px;
+    }
+
+}

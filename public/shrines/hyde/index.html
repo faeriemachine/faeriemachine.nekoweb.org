@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--
+    
+   |\---/|
+   | ,_, |
+    \_`_/-..----.
+ ___/ `   ' ,""+ \  sk
+(__...'   __\    |`.___.';
+  (_,...'(_,.`__)/'.....+
+  
+   !! FAERIEMACHINE.NEOCITIES.ORG !!
+    
+   Hi there! I see you're peaking at my website- no worries, I don't mind if you're wanting to see how I did something
+   for reference! Just please don't copy-paste my stuff without at least *some* kind of modification/personalization to it...
+    
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyde | FAERIEMACHINE</title>
+    <link rel="icon" type="image/x-icon" href="../../img/shrines/hyde/pumpkin14.gif">
+    
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+  
+<style type="text/css">
+html{
+ height: 100%; 
+}
+
+body{
+background:url('../../img/shrines/hyde/holid053.gif');
+  background-position: center;
+  background-repeat: repeat;
+height: 100%;
+color: #ffd138;
+font-family: 'Grenze Gotisch', cursive;
+font-size: 16px;
+overflow-x: hidden;
+}
+
+img{
+  transition: all .2s ease;  
+}
+
+img:hover{
+  transform: scale(1.1); 
+}
+
+a {
+  text-decoration: none;
+  color: #ee4ad3;
+  }
+  
+a:visited{
+  color: #7b0897;
+}
+
+a:hover{
+  color: #E8315D;
+}
+
+main {
+position: relative;
+background-color: #3f3f3f;
+margin: 0 auto;
+width: 32.5em;
+padding: 5px;
+border: 3px double #b724cc;
+}
+
+#other{
+  background-color: #272727;
+  border: 1px solid black;
+  width: 30em;
+  margin: 5px;
+  padding: 10px;
+  height: 27em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+ul, li{
+  padding-left: 20px;
+  text-align: left;
+}
+
+.list{
+  margin: 0 auto;
+  width: 125px;
+}
+
+.floaty{
+  position:absolute;
+}
+
+/* Columns */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Border */
+hr.rounded {
+  border-top: 3px solid #5128a4;
+}
+
+/* Links */
+.links {
+  font-size: 1.3rem;
+}
+
+.rainbow-text .block-line > span {
+	display: inline-block;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #f563d1 #2e2e2e;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2e2e2e;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #f563d1;
+    border-radius: 10px;
+    border: 3px solid #202020;
+  }
+
+/* Custom font */ 
+@font-face {
+font-family: "CustomFont";
+  src: url("fonts/youngserif-regular-webfont.woff") format("woff"),
+}
+
+/* Floaty Images */
+
+.floaty2 {
+  position: absolute;
+  left: -14rem;
+  top: -7rem;
+  width: 14rem;
+}
+
+.floaty3 {
+  position: absolute;
+  left: -14rem;
+  top: 10rem;
+  width: 14rem;
+}
+
+.floaty4 {
+  position: absolute;
+  left: -14rem;
+  top: 25rem;
+  width: 14rem;
+}
+
+.floaty5 {
+  position: absolute;
+  width: 14rem;
+  top: 5rem;
+  right: -14rem;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 62.5rem) {
+
+.center {
+  text-align: center;
+  width: 21rem;
+}
+
+main {
+  display: grid;
+  width: 20rem;
+  height: 50rem;
+  order: 1;
+}
+
+#other {
+  height: 32rem;
+  width: 17rem;
+  font-size: 1rem;
+  order: 2;
+}
+
+.rounded{
+  border-top: 3px solid #5128a4;
+  width: 16rem;
+}
+
+.rainbow-text {
+  font-size: 2rem;
+}
+
+.links {
+  font-size: 1rem;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+marquee{
+  display: grid;
+  overflow: hidden;
+  width: 19.5rem;
+}
+
+.floaty1 {
+  top: 50rem;
+  left: -19rem;
+  order: 2;
+}
+
+.floaty2 {
+  top: -8rem;
+  left: 21rem;
+  width: 60%;
+}
+
+.floaty3 {
+  top: 6rem;
+  left: 21rem;
+  width: 60%;
+}
+
+.floaty4 {
+  top: 19rem;
+  left: 21rem;
+  width: 60%;
+}
+
+.floaty5 {
+  top: 32rem;
+  left: 21rem;
+  width: 60%;
+}
+
+.hyde {
+    width: 46%;
+}
+
+}
+</style>
+</head>
+<style>
+    /* customizable snowflake styling */
+     
+    .snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    }
+     
+    @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+    </style>
+    <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/6ylse4.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/6ylse4.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/7sxxjq.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/9i72nq.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/eewwbr.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/d914ae5e.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/ib5ak7.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/kmust2.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/ojlh8x.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/tzow3y.png">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/wd1h1c.gif">
+    </div>
+    <div class="snowflake">
+    <img src= "../../img/shrines/hyde/zv36n4.gif">
+    </div>
+    </div>
+<body>
+    <div class="center" style="padding:5px;">
+      <img src="../../img/shrines/hyde/Spr_5b_569.png" alt="Garbodor"> <img class="hyde" src="../../img/shrines/hyde/coollogo_com-32536847.png" alt="HYDE" width="15%"> <img src="../../img/shrines/hyde/Spr_4h_019_m.png" alt="Rattata">
+<main>
+    <img class="floaty1" src="../../img/shrines/hyde/hyde.png" alt="null" style="position: absolute;right: -18rem; bottom: -8rem;z-index: 2;" height="450em">
+    <img class="floaty2" src="../../img/shrines/hyde/13864698_MnQJXnZZNr7CmO3.png" alt="Hi!">
+    <img class="floaty3" src="../../img/shrines/hyde/Fb3otP1VUAEygMN.png" alt="Hi!">
+    <img class="floaty4" src="../../img/shrines/hyde/65191049_h18PUnixkN8byeS.png" alt="Hi!">
+    <img class="floaty5" src="../../img/shrines/hyde/11448668_4CV67NIRkpDu4Oj.png" alt="Hi!">
+<div class="center" style="padding:5px;">
+    
+  <marquee behavior="alternate" direction="left"><img src="../../img/shrines/hyde/efabad81.png" alt="Stamp: Is it Halloween yet?"><img src="../../img/shrines/hyde/14xvmaR.png" alt="Stamp: I heart Kuromi"><img src="../../img/shrines/hyde/c15bb930.png" alt="Stamp: Pile of faux furs"><img src="../../img/shrines/hyde/1ebfc9b7.png" alt="Stamp: Rainbow happy face emoticon with it's arms out"><img src="../../img/shrines/hyde/83895749.png" alt="Stamp: Pokemon plushies"><img src="../../img/shrines/hyde/TPdUbmo.png" alt="Stamp: Pile of Halloween glitter"><img src="../../img/shrines/hyde/1622ad3f.gif" alt="Stamp: Hot Topic"><img src="../../img/shrines/hyde/6ed0f773.jpg" alt="Stamp: Googly eyes in slime"><img src="../../img/shrines/hyde/1d8bb7b4.jpg" alt="Stamp: Rainbow Gloomy Bear plushies"><img src="../../img/shrines/hyde/bdf58693.png" alt="Stamp: Rainbow checkered fabric"><img src="../../img/shrines/hyde/JfLP6ni.png" alt="Stamp: Hell in rainbow"><a href="https://www.deviantart.com/damoni/art/Rat-Stamp-94949361"><img src="../../img/shrines/hyde/d1kj3e9-07abf614-be72-4eab-bef8-d78ed5111374.gif" alt="Stamp: I heart rats"></a><a href="https://www.deviantart.com/xx7795/art/hello-kitty-hats-stamp-762778015"><img src="../../img/shrines/hyde/dcm4za7-6916ffc6-e657-46be-a6eb-00deab1ee585.png" alt="Stamp: Hello Kitty plushies"></a><img src="../../img/shrines/hyde/tumblr_ab7f65aa170ee5cb124137903dc4f72e_50e02c95_100.png" alt="Stamp: Glow-in-the-dark toy bugs"><img src="../../img/shrines/hyde/9f09e004.png" alt="Stamp: Halloween candy"></marquee>
+ <div id="other">
+  <img src="../../img/shrines/hyde/s4q7f0.gif" alt="null"> <font size="6"><b>1998 - 2023</b></font> <img src="../../img/shrines/hyde/s4q7f0.gif" alt="null">
+    <p><b>This is a memorial shrine page dedicated to my dear friend, <a href="https://x.com/eekyrat">Hyde</a>.</b></p>
+    <img src="../../img/shrines/hyde/image06.gif" alt="null"><br>
+    <img src="../../img/shrines/hyde/tumblr_om2i8xkm741trmermo1_100.gif" alt="null" style="float: right;margin: 5px;">
+    <p>Hyde was an incredible person, artist, and friend, and always made a memorable impression on everyone he crossed paths with. He loved creating artwork and stories that he sought to make sure people felt represented in, with themes in his work calling back to his experiences being disabled, indigenous, transgender, and gender non-conforming. Likewise, he was passionate about topics such as transgender/disability/indigenous rights, and always made sure to speak out on the injustices she saw happening. He was also an avid rat lover, and owned many different rats throughout the years that he doted on so very much. He loved Halloween, gacha/claw machines, furry culture, animation, gaming, Sanrio, scenemo culture, the occult, toy collecting, and everything creepy and cute. </p>
+
+    <p>I don't exactly remember how we met, but it was sometime around 2016 to 2017. It doesn't matter though, because ever since we knew each other, Hyde has always been there for me, both as a fellow disabled comrade and as a close friend. It truly felt like, no matter how much I changed, he was always there to love and accept me with open arms. He was, and still sometimes is, one of the few people who truly understood me on a level that I don't always experience with many people. Likewise, I always did my hardest to understand her back, because I know what it's like to not have people understand you, especially when you're physically disabled and medically complex. No matter what she was dealing with in his personal life, Hyde always went the extra mile to make sure that her loved ones felt loved, needed, and accepted.</p>
+    <img src="../../img/shrines/hyde/h2lmik.gif" alt="null">
+    <p>Unfortunately, due to health complications, Hyde would pass away on August 16, 2023.</p>
+
+    <p>It's been a difficult reality to come to terms with, knowing that he's gone and won't be coming back. It feels as though there's a hole in my heart where he left- a hole that I've since been growing around, but one that will never be filled. I ache from the idea of having to continue my life without him in it, which is why I wanted to create this page as a means of memorializing him and the time I did get to spend with her. </p>
+
+    <p>On behalf of myself and everyone who was lucky enough to know him, thank you, Hyde. Thank you for being on my side, thank you for looking out for me, thank you for helping me grow into the person I am today, and thank you for showing me what it means to be a true friend. I'm truly so blessed to have had the opportunity to be apart of your life, and to have been your friend. I promise, for as long as I'm still living, I won't ever let you be forgotten, because it's the least I can do in return for everything you've provided for me.</p>
+
+    <p><b>Rest in peace, I'll see you again soon my friend.</b> 💖🐀🎃🎀</p>
+    <img src="../../img/shrines/hyde/image17.gif" alt="null"><br>
+    <img src="../../img/shrines/hyde/tumblr_m9mgu4la7n1qb1380.gif" alt="null">
+ </div>
+ <marquee behavior="alternate" direction="right"><img src="../../img/shrines/hyde/Lu1VtMA.gif" alt="Blinkie: Horns n fangs baby!"><img src="../../img/shrines/hyde/ohamBMM.gif" alt="Blinkie: Happy 'ween"><img src="../../img/shrines/hyde/tumblr_static_2qs1zbzgkw00gww04scggcsck.gif" alt="Blinkie: Gay Pride"><img src="../../img/shrines/hyde/r0Jnpf6.gif" alt="Stamp: Scene freak"><img src="../../img/shrines/hyde/tumblr_static_c6zccqp38d4cok44wggwkc8w8.gif" alt="Stamp: Bite me"><img src="../../img/shrines/hyde/5dba0ae2.gif" alt="Blinkie: I think in pink"><img src="../../img/shrines/hyde/zX7wT9x.gif" alt="Blinkie: Happy Halloween"><img src="../../img/shrines/hyde/vM013CJ.gif" alt="Blinkie: Sinner"></marquee>
+ <img src="../../img/shrines/hyde/tumblr_083da4a84d1d5247134070dcf6dad2c5_ed049b39_250.gif" alt="null"> <img src="../../img/shrines/hyde/tumblr_ac0983df2cd37244d805cf6e7150a6fb_d29358fc_250.gif" alt="null"> <img src="../../img/shrines/hyde/tumblr_inline_p6tw67fV4u1vc8es4_500.gif" alt="null">
+</div>
+</div>
+</body>
+</html>

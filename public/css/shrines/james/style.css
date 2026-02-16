@@ -1,0 +1,368 @@
+:root {
+  --navy-blue: #050040;
+  --dark-blue: #0d00a2;
+  --bright-red: #df2828;
+  --medium-red: #a52222;
+  --dark-red: #660000;
+  --yellow: #ffd221;
+  --white: #ffffff;
+  --box-one-bg: #ffc87f;
+  --box-one-border: #f3af56;
+  --box-two-bg: #f3df87;
+  --box-two-border: #ffdc40;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffd221 #8c3550;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #8c3550;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffd221;
+    border-radius: 8px;
+    border: 0px solid #ffffff;
+  }
+
+html{
+  height: 100%; 
+}
+
+a {
+font-weight: bold;
+color: var(--dark-blue);
+}
+
+a:hover {
+  color: var(--medium-red);
+}
+
+body{
+  background-image: linear-gradient(0deg, rgba(228, 174, 174, 0.3), rgba(228, 174, 174, 0.3)), url(../../../img/shrines/james/roses2.gif);
+      background-position: center;
+      background-repeat: round;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-family: 'Mali';
+  color: var(--navy-blue);
+}
+
+.flex {
+  display: flex;
+}
+
+#paragraph{
+background-color: var(--white);
+padding: 15px;
+border-radius: 25px;
+box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.8);
+}
+
+.p2{
+  height: 795px;
+}
+
+.p3{
+  height: 380px;
+}
+
+.p4{
+  height: 720px;
+}
+
+/* Countup timer */
+.countup {
+  text-align: center;
+  margin: 0px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: var(--medium-red);
+  margin: 0;
+  color: white;
+  margin-left: 13px;
+  border-color: var(--dark-red);
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px black;
+}
+.countup span[class*="timeRef"] {
+  margin-left: 0;
+  background: var(--yellow);
+  color: var(--navy-blue);
+}
+
+hr.invis {
+  display: block;
+  color: #ffffff00;
+  margin-top: 1em;
+}
+
+h2{
+background-color: var(--bright-red);
+color: #ffffff;
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+padding: 5px;
+border-radius: 25px;
+text-align: center;
+margin-top: 0px;
+box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.8);
+}
+
+h3{
+  background-color: var(--dark-blue);
+  color: #ffffff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+  padding: 12px;
+  border-radius: 25px;
+  width: fit-content;
+  text-align: left;
+  margin: 10px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.8);
+}
+
+.wrap {
+height: 255px;
+margin: 15px;
+display: flex;
+}
+
+.wrap span {
+align-self: flex-end;
+}
+
+aside{
+ width: 500px;
+}
+
+#left{
+width: 400px;
+order: 1;
+margin: 10px;
+}
+
+#right{
+width: 280px;
+height: 280px;
+background-image: url('../../../img/shrines/james/gif2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+border: 25px solid transparent;
+border-image: url(../../../img/shrines/james/tumblr_12ec0e323a5c869d5833849dc8e19722_6df0b944_1280.png) 65 round;
+order: 2;
+margin: 10px;
+}
+
+.box{
+  padding: 10px;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  transition: all .2s ease; 
+}
+
+.box:hover{
+  transform: scale(1.025); 
+}
+
+#info1{
+background-color:var(--box-one-bg);
+border: 3px ridge var(--box-one-border);
+width: 390px;
+}
+
+#info2{
+background-color:var(--box-two-bg);
+border: 3px ridge var(--box-two-border); 
+width: 390px;
+}
+
+#faq1{
+  background-color:var(--box-one-bg);
+  border: 3px ridge var(--box-one-border);
+  padding: 5px;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 1rem;
+  float: left;
+  margin-bottom: 5px;
+  transition: all .2s ease; 
+  width: fit-content;
+}
+
+#faq2{
+  background-color:var(--box-two-bg);
+  border: 3px ridge var(--box-two-border); 
+  padding: 5px;
+  border-radius: 15px;
+  text-align: right;
+  font-size: 1rem;
+  float: right;
+  margin-bottom: 5px;
+  transition: all .2s ease; 
+  width: 660px;
+}
+
+#faq1:hover, #faq2:hover{
+  transform: scale(1.025); 
+}
+
+#trivia1{
+  background-color:var(--box-one-bg);
+  border: 3px ridge var(--box-one-border);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  transition: all .2s ease; 
+}
+
+#trivia2{
+  background-color:var(--box-two-bg);
+  border: 3px ridge var(--box-two-border); 
+  padding: 10px;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  transition: all .2s ease; 
+}
+
+#trivia1:hover, #trivia2:hover{
+  transform: scale(1.025); 
+}
+
+.fig1{
+  background-color:var(--box-one-bg);
+  border: 3px ridge var(--box-one-border);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  float: right;
+  font-size: 0.9rem;
+  width: 35%;
+  margin: 10px;
+  transition: all .2s ease; 
+}
+
+.fig2{
+  background-color:var(--box-two-bg);
+  border: 3px ridge var(--box-two-border);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  float: left;
+  font-size: 0.9rem;
+  width: 35%;
+  margin: 10px;
+  transition: all .2s ease; 
+}
+
+.fig1:hover, .fig2:hover{
+  transform: scale(1.025); 
+}
+
+.wishlist1{
+  background-color:var(--box-one-bg);
+  border: 3px ridge var(--box-one-border);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.85rem;
+  width: 100%;
+  margin: 3px;
+  transition: all .2s ease;
+}
+
+.wishlist2{
+  background-color:var(--box-two-bg);
+  border: 3px ridge var(--box-two-border);
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 0.85rem;
+  width: 100%;
+  margin: 3px;
+  transition: all .2s ease;
+}
+
+.wishlist1:hover, .wishlist2:hover{
+  transform: scale(1.025); 
+}
+
+/* Media query */
+@media only screen and (max-width: 800px) {
+
+#faq1{
+  font-size: 1rem;
+  width: 222px;
+}
+
+#faq2{
+  font-size: 1rem;
+  width: 222px;
+}
+
+.p2 {
+  height: 1365px;
+}
+
+.p3 {
+  height: 825px;
+}
+
+.p4 {
+  height: 920px;
+}
+
+.flex{
+  display: block;
+}
+
+#left {
+  margin: 0px;
+}
+
+#info1,#info2{
+  width: 215px;
+}
+
+.box{
+  font-size: 1rem;
+}
+
+#right{
+  width: 176px;
+  height: 176px;
+}
+
+#trivia1, #trivia2{
+  width: 215px;
+}
+
+.fig1, .fig2{
+  width: 80%;
+}
+
+.wishlist1, .wishlist2{
+  width: 88%;
+}
+
+.countup span[class*="timeRef"]{
+  margin-bottom: 8px;
+}
+
+}
