@@ -35,9 +35,9 @@ body {
 a {
     text-decoration:none;
     overflow: hidden;
-    font-weight: bolder;
+    font-weight:900;
     font-family: 'Mali';
-  }
+}
 
 #navigation{
     vertical-align: inherit;
@@ -45,6 +45,10 @@ a {
 
 p {
     margin: 10px;
+}
+
+.unavailable{
+  font-weight: bold;
 }
 
 ul.links{

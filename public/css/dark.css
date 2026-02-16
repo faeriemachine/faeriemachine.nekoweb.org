@@ -41,11 +41,11 @@ a:hover {
 }
 
 .hovertext{
-  color: var(--cyanblue)
+  color: var(--cyanblue);
 }
 
 .unavailable{
-  color: var(--white)
+  color: var(--white);
 }
 
 hr{
