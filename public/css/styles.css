@@ -1,16 +1,42 @@
+/* Fonts */
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 html,
 body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-    font-family: 'Mali';
+    font-family: Atkinson Hyperlegible;
     font-weight: 500;
 }
 
 a {
     text-decoration:none;
     overflow: hidden;
-    font-weight: 600;
+    font-weight: bolder;
+    font-family: 'Mali';
   }
   
 
