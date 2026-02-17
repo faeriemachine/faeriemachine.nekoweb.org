@@ -82,6 +82,12 @@ textarea{
   background: var(--black);
 }
 
+::selection {
+  background-color: var(--magenta);
+  color: var(--black);
+}
+
+
 .date{
   color:#ffc3abd4;
 }

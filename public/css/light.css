@@ -81,6 +81,10 @@ textarea{
   background: var(--white);
 }
 
+::selection {
+  background-color: var(--indigo);
+  color: var(--white);
+}
 
 .date{
   color:#7f0121d4;
