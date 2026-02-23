@@ -14,7 +14,7 @@ Been a long time since I've sat down and written a new journal entry, hasn't it?
 
 That's right I should mention, I finally finished my fursuit! He's just a partial right now, with a head, pair of handpaws, armsleeves, and a tail, but I hope to one day (<s>when I have the money</s>) expand him to be a fullsuit! Overall I'm trying my hardest to be proud of the finished product, and in a few ways I am because I had to learn a lot of new skills- I've never done things like a fully lined head, making my own pattern for the handpaws, making armsleeves, and generally taking my work more seriously and making sure I understand every step of the fursuit-making process. On the other hand, I also can't help but to feel like his flaws make him stick out like a sore thumb, although nobody at the convention who complemented my suit seemed to notice.
 
-<img src="https://files.catbox.moe/k47i22.png" alt="A compilation of images of a bat fursuiter" width="100%">
+<img src="../../../img/blog/posts/fursuit1.png" alt="A compilation of images of a bat fursuiter" width="100%">
           
           
 On a similar topic, the convention was a wonderful time! I'm no stranger to conventions, but I considered this to be my first venture into the full furry convention experience, since my last year at this convention was just to attend the Furby panel and nothing else. But I'm happy to say that the convention was a success! It was also my first time staying at a hotel room by myself, which I think went pretty smoothly (even when I had a bit of trouble with my keycard, which I'll go into a bit later.)
@@ -37,7 +37,7 @@ To give a summary of my events, I'll write a brief bulletpoint list of what I wa
                      
 - Afterwards, we all headed to our rooms. Except I mistakenly left all my keycards in my room for some dumb reason, so I had to go back down and ask for another keycard. Crashed pretty hard that night, but unfortunately didn't end up sleeping all that well for the next day.</li>
           
-<img src="https://files.catbox.moe/ump36q.jpg" alt="A table and several chairs covered in plushies" width="100%">
+<img src="../../../img/blog/posts/canfur20241.jpg" alt="A table and several chairs covered in plushies" width="100%">
 
 **Saturday:**
 
@@ -65,15 +65,15 @@ To give a summary of my events, I'll write a brief bulletpoint list of what I wa
           
 All in all it was an incredible time, and I'm not only planning on going next year, but I'm also looking to see if I can attend Furnal Equinox in March as well! So far I have the logistics worked out, I just need to figure out how I'm going to pay for a room at the main hotel (since I don't imagine I'll be able to adequately walk the distance needed to stay at one of the overflow hotels. Although, I do know they have a shuttle service, so I'll just have to see when it gets closer.) Below are some pictures of myself and some of the wonderful people I met this year.
 
-<img src="https://files.catbox.moe/v749s4.jpg" alt="A group of fursuiters posing for a picture" width="49%"> 
-<img src="https://files.catbox.moe/oiyskb.jpg" alt="A pair of fursuiters posing for a picture" width="49%">
+<img src="../../../img/blog/posts/canfur20242.jpg" alt="A group of fursuiters posing for a picture" width="49%"> 
+<img src="../../../img/blog/posts/canfur20243.jpg" alt="A pair of fursuiters posing for a picture" width="49%">
 
-<img src="https://files.catbox.moe/ua22vk.jpg" alt="A group of fursuiters at the rave" width="49%">
-<img src="https://files.catbox.moe/bnyvv9.jpg" alt="A pair of fursuiters at a panel room" width="49%">
+<img src="../../../img/blog/posts/canfur20244.jpg" alt="A group of fursuiters at the rave" width="49%">
+<img src="../../../img/blog/posts/canfur20245.jpg" alt="A pair of fursuiters at a panel room" width="49%">
 
 And for good measure, here's my big haul from the convention this year! I think my favourite things I got this year include my fursuit kandi and collar, both of the badges I got from some of the wonderful artists vending at the convention (artists are [JefferyDraws](https://jefferydraws.carrd.co/) and [King's Treasures](https://linktr.ee/KingRagnarok) respectively!) the Gatomon and fursuit head base keychains, the Furby and Galarian Ponyta stickers, and the disability pride pin!
           
-<img src="https://files.catbox.moe/j00a40.jpg" alt="Various items laid out on a bed; two oversized kandi bracelets, a collar, some badges, stickers, keychains, and pins." width="100%">
+<img src="../../../img/blog/posts/canfur20246.jpg" alt="Various items laid out on a bed; two oversized kandi bracelets, a collar, some badges, stickers, keychains, and pins." width="100%">
           
 ---
           
