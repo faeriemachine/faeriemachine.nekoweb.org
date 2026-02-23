@@ -20,27 +20,27 @@ First of all, the wait-time to get through security was well over an hour long, 
 
 Otherwise, my flight and deplaning went pretty smooth (although, the flight itself there was very bumpy in terms of turbulence, and I easily would've shat myself if I wasn't already an experienced flier beforehand,) and after meeting with my partner we decided to go to Five Guys to get some dinner before we went to their place to watch some Dan Vs. and Trailer Park Boys, before we called it a night after my very long day.
             
-<img src="https://files.catbox.moe/r8e23g.jpg" alt="A drawing of an anthro vampire bat drawn on cardstock with a crayon, with writing that reads 'BURGER!!' beside the bat" width="100%">
+<img src="../../../img/blog/posts/sa1.jpg" alt="A drawing of an anthro vampire bat drawn on cardstock with a crayon, with writing that reads 'BURGER!!' beside the bat" width="100%">
             
 **Day two:** Day two was pretty quiet as I needed some time to recoup from my travel day, so we spent a lot of it doing small errands, taking drives around the city, and watching MASH and more Trailer Park Boys.
             
-<img src="https://files.catbox.moe/i5piwf.png" alt="A plush little brown bat with it's wings curled up around itself" width="25%" style="margin:0px 10px;float:left">
+<img src="../../../img/blog/posts/sa2.png" alt="A plush little brown bat with it's wings curled up around itself" width="25%" style="margin:0px 10px;float:left">
 
 **Day three:** On Wednesday we went to the museum! It was a pretty modest museum, and Ghost themselves says that it's likely been downsized since they last went as a child (plus, there were many sections that were closed for refurbishment,) but it was still a fun outing- really, doing anything with them ends up being a lot of fun! They also got me this adorable Wild Republic Cuddlekins plush of a little brown bat that I cherish so much. He didn't have a name until I came back from my trip, but Ghost lovingly suggested that I name it Radar, after Radar O'Reilly from MASH! (Sidenote: You'll be seeing MASH be mentioned multiple times throughout this journal entry, we watched a ton of it...)
             
-<img src="https://files.catbox.moe/z8nb1c.jpg" alt="A very warped and poorly build black stool from IKEA" width="25%" style="margin:0px 10px;float:right"><p>
+<img src="../../../img/blog/posts/sa3.jpg" alt="A very warped and poorly build black stool from IKEA" width="25%" style="margin:0px 10px;float:right"><p>
 
 We also got to the "building IKEA furniture together" phase of our relationship that day, as I need to have something to sit on while I shower due to my disabilities, and asking them to buy me an actual shower stool just for me to use it only a couple times a year would be insane, so it had to be the IKEA stool. I think it was the ultimate test to our compatibility as a couple though, and while we did get a bit frustrated at times with the lack of words on IKEA's instruction manuals, we eventually got it built properly. Although I still can't believe what our first attempt looked like...
 
 We ended the day with Whiteclaws, indica gummies, sativa vapes, and a night out for dinner at Chuy's for some good tex-mex! It was actually my first tex-mex experience and I was not at all disappointed with what I got- I ended up getting the chicken flautas, which are corn tortillas filled with roasted chicken and cheese that are rolled, fried and topped with smoky Chipotle sauce. I ended up getting the guacamole and sour cream on the side, but both were very good, as well as the refried beans! I wasn't a huge fan of the Mexican rice, but that's just because I'm not much of a rice person.
             
-<img src="https://files.catbox.moe/p9i5a3.jpg" alt="A plate of tex mex food, including chicken flautas, refried beans, Mexican rice, and salad, with sour cream and guacamole on the side" width="100%">
+<img src="../../../img/blog/posts/sa4.jpg" alt="A plate of tex mex food, including chicken flautas, refried beans, Mexican rice, and salad, with sour cream and guacamole on the side" width="100%">
             
 **Day four:** Our fourth day was another relatively quiet day, especially with the amount of pain I was in after our venture out to the museum the day before, so we took it easy again and passed the time with some driving and MASH marathons.
 
 This was also the day when Ghost attempted to take me to this cool comic book store that they've been wanting to show me for ages, only for us to get there and realize that it was closed... We still had a fun drive out despite that though, and they took me to see these murals that they spotted while out on the road one day which were very cool! I love seeing art out in the open like this...
            
-<img src="https://files.catbox.moe/5vjgry.jpg" alt="Two painted murals; one with a blue eye, and another as a viking with pink eyes, a grey helmet with horns, and a brown beard" width="100%">
+<img src="../../../img/blog/posts/sa5.jpg" alt="Two painted murals; one with a blue eye, and another as a viking with pink eyes, a grey helmet with horns, and a brown beard" width="100%">
 
 **Day five:** Another fairly quiet and relaxing day, we spent pretty much the entire time watching MASH, to the point where we're now up to season 5 if I'm remembering correctly! Enjoyed lots of Whiteclaw between each other, and this was also the night we ordered some really good pad thai and springrolls for dinner! Most of the day, however, was spent with me resting up to prepare for our adventure the next day...
 
@@ -83,7 +83,7 @@ And to Ghost, if and when you read this (because I know that I will be sending y
 
 Truly, from the bottom of my heart, thank you so much for everything you've done for me. If you told me years ago that I'd not only make the steps to go visit you in an entirely different country in an unfamiliar state, but to actually go completely by myself and do everything I needed to on my own, I wouldn't have believed you. But you were always there cheering me on and giving me the confidence to do all of this, and I can't thank you enough for it.  I've had to experience some of my lowest points while I've been with you, but with this trip being at the start of the new year, I truly believe that 2024 is going to be our year and that things are going to get better for the both of us. 
 
-<img src="https://files.catbox.moe/bqqegh.jpg" alt="Two hands are pictured being held close to one another" width="30%" style="margin:0px 10px;float:right">
+<img src="../../../img/blog/posts/sa6.jpg" alt="Two hands are pictured being held close to one another" width="30%" style="margin:0px 10px;float:right">
 
 I love you so much, I love you more than anything in the world, and you're the most precious and special thing that I have in my life. Thank you for always being there for me and giving me your unconditional love and care, I hope I can always be there to return the favour for you because you deserve it and so much more. I hope our future is filled with many more adventures together, because you're the person that I want to spend the rest of my life with. I love you, Ghost, and I never want to stop loving you.
 
