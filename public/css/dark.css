@@ -3,25 +3,26 @@
     --black: #000;
     --white: #fff;
     --pastelyellow: #FFFFE6;
-    --orange: #ffb06a;
+    --blue: #5fc3ff;
     --red: #E8315D;
-    --darkmagenta: #661B32;
-    --darkred: #3E1824;
-    --pastelpurple: #EAD5FF;
-    --magenta: #C23D86;
-    --indigo: #341573;
+    --darkblue: #16124A;
+    --plum: #43124A;
+    --pastelpurple: #EDF;
+    --purple: #861369;
     --midnightblue: #191970;
-    --cyanblue: #2ddde6;
+    --yellow: #ffde90;
 }
 
 html,
 body {
-    background: url("../img/home/carpet.jpg");
+    background: url("../img/home/dither2.png");
+      background-size: cover;
+      background-position: center;
     color: var(--pastelyellow)
 }
 
 a {
-    color: var(--cyanblue);
+    color: var(--yellow);
 }
   
 a:hover {
@@ -41,7 +42,7 @@ a:hover {
 }
 
 .hovertext{
-  color: var(--cyanblue);
+  color: var(--yellow);
 }
 
 .unavailable{
@@ -49,17 +50,17 @@ a:hover {
 }
 
 hr{
-    color: var(--orange);
+    color: var(--blue);
 }
 
 h1{
-  background-color: var(--indigo);
+  background-color: var(--purple);
   color: white;
 }
 
 h2{
   color: var(--pastelpurple);
-  background: var(--darkmagenta);
+  background: var(--plum);
 }
 
 h3{
@@ -68,13 +69,13 @@ h3{
 
 mark{
   color: var(--pastelpurple);
-  background: var(--darkmagenta);
+  background: var(--darkblue);
 }
 
 form select{
     color: var(--pastelpurple);
-    background: var(--darkmagenta);
-    border: 3px solid var(--indigo);
+    background: var(--plum);
+    border: 3px solid var(--purple);
 }
 
 textarea{
@@ -89,12 +90,12 @@ textarea{
 
 
 .date{
-  color:#ffc3abd4;
+  color:#e0f0ebd4;
 }
 
 .box{
-    background-color: var(--darkred);
-    border: 3px solid var(--indigo);
+    background-color: var(--darkblue);
+    border: 3px solid var(--purple);
 }
 
 /* section styling */
@@ -105,42 +106,42 @@ textarea{
 
 
 .sidebar {
-	  background-color:var(--darkmagenta);
+	  background-color:var(--plum);
 }
 
 .content {
     border: 2px ridge var(--midnightblue);
-    background-image: url("../img/home/contentdark.jpg");
+    background-image: url("../img/home/carpet.jpg");
 }
 
 .navigation {
-    background-color: var(--darkmagenta);
+    background-color: var(--plum);
 }
 
 .footer {
-	background-color:var(--indigo);
+	background-color:var(--purple);
     color: var(--white);
 }
 
 /* Figures */
 figure {
-  background-color: var(--darkmagenta);
+  background-color: var(--darkblue);
 }
 
 /* Marquees */
 .marqueebox{
-    background-color:var(--indigo);
+    background-color:var(--purple);
     color: var(--white);
 }
 
 /* skip buttons */
 .skip-to-nav-link, .skip-to-content-link {
-  background-color:var(--indigo);
+  background-color:var(--purple);
   color: var(--white);
 }
 
 #top {
-  background-color: var(--indigo);
+  background-color: var(--purple);
   color: var(--white);
 }
 
@@ -150,7 +151,7 @@ figure {
 
 button{
   color:var(--white);
-  background:var(--indigo);
+  background:var(--purple);
   border: 1px solid var(--transparent);
 }
 
@@ -176,7 +177,7 @@ button:hover{
 
   /* Firefox */
   .content {
-    scrollbar-color: var(--orange) var(--transparent);
+    scrollbar-color: var(--blue) var(--transparent);
   }
 
   /* Chrome, Edge, and Safari */
@@ -186,12 +187,12 @@ button:hover{
   }
 
   .content::-webkit-scrollbar-thumb {
-    background-color: var(--darkmagenta);
+    background-color: var(--darkblue);
   }
 
   /* Firefox */
   .box {
-    scrollbar-color: var(--orange) var(--transparent);
+    scrollbar-color: var(--blue) var(--transparent);
   }
 
   /* Chrome, Edge, and Safari */
@@ -201,7 +202,7 @@ button:hover{
   }
 
   .box::-webkit-scrollbar-thumb {
-    background-color: var(--orange);
+    background-color: var(--blue);
   }
 
 /* Last.FM Widget */
@@ -214,5 +215,10 @@ button:hover{
 
 /* Follow on Nekoweb button */
 .follow {
-  background: var(--indigo);
+  background: var(--purple);
+}
+
+/* About page navi */ 
+.navi{
+    background-color: var(--purple);
 }

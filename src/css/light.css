@@ -15,7 +15,9 @@
 
 html,
 body {
-    background: url("../img/home/flowers.gif");
+    background: url("../img/home/dither1.png");
+      background-size: cover;
+      background-position: top;
     color: var(--darkred)
 }
 
@@ -212,4 +214,9 @@ button:hover{
 /* Follow on Nekoweb button */
 .follow {
   background: var(--indigo);
+}
+
+/* About page navi */ 
+.navi{
+    background-color: var(--indigo);
 }
