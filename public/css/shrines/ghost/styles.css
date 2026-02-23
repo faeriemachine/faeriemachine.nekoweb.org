@@ -215,7 +215,7 @@ nav li{
 
 /* Back button */
 .back{
-    background-color: 6a5a48;
+    background-color: #6a5a48;
     border: solid 1px var(--black);
     padding: 5px;
     position: absolute;
@@ -230,6 +230,12 @@ nav li{
     text-decoration: none;
     font-size: 1.5rem;
     font-family: "Wendy One", sans-serif;
+}
+
+/* a hover */
+
+a:hover{
+    color: var(--selection);
 }
 
 /* Countup timer */
@@ -295,6 +301,10 @@ nav li{
 }
 
 /* Img */
+.hymez{
+    margin: 5px;
+}
+
 .floatyone{
     position: absolute;
     left: -28px;
