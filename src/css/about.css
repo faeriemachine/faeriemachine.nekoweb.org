@@ -64,6 +64,99 @@ li.navi{
     margin: 4px;
 }
 
+
+ul {
+  padding-left: 15px;
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+}
+
+li{
+  padding-left: 25px;
+  margin:5px;
+}
+
+.flexwrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon {
+   align-items: end;
+}
+
+/* Likes/Dislikes/Hobbies */
+.preferences {
+    width: 34%;
+}
+
+.likes, .dislikes, .hobbies, .youtube, .animals, .food, .items, .aesthetics, .themes {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 250px;
+}
+
+.pkmn{
+    text-align: center;
+    width: 20%;
+    height: 170px;
+    margin: 5px;
+    border-radius: 100%;
+    display: block;
+    align-content: end;
+}
+
+
+.interests {
+    width: 50%;
+}
+
+/* Image galleries */
+
+.image-gallery {
+  display: flex;
+  overflow: scroll;
+}
+
+.image-gallery div {
+  margin: 5px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: calc(20% - 10px);
+  position: relative;
+}
+
+/* Captions */
+.image-gallery div span {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Mali';
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 0.85rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: transform 0.4s ease, opacity 0.5s ease;
+}
+
+/* Captions on Hover */
+.image-gallery div:hover span {
+  opacity: 1;
+  transform: none;
+}
+
+/* Images */
+.image-gallery div img {
+  width: 130px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
 ul.interest{
     padding-left: 5px;
     text-align: left;
@@ -111,7 +204,37 @@ mark{
         font-size: 0.9em;
     }
 
+    .image-gallery div {
+        width: calc(50% - 10px);
+    }
+    
     li.interest {
         line-height: 16px;
       }
+
+    .flexwrap{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .pokemon{
+        flex-direction: row;
+    }
+
+    .preferences {
+        width: auto;
+    }
+
+    .likes, .dislikes, .hobbies, .youtube, .animals, .food, .items, .aesthetics{
+        height: 150px;
+    }
+
+    .interests {
+        width: auto;
+    }
+
+    .pkmn {
+        height: fit-content;
+        width: fit-content;
+    }
   }

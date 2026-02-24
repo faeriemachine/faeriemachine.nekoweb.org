@@ -3,7 +3,7 @@
     --black: #000;
     --white: #fff;
     --pastelyellow: #FFFFE6;
-    --pastelorange: #FFF1CC;
+    --pastelorange:#FFE9B4;
     --orange: #ffb06a;
     --red: #E8315D;
     --darkred: #7f0121;
@@ -41,29 +41,33 @@ a:hover {
     color: var(--white);
 }
 
-.hovertext{
+.hovertext {
     color: var(--royalblue)
 }
 
-.unavailable{
+.unavailable {
     color: var(--black)
 }
 
-hr{
+hr {
     color: var(--orange);
 }
 
-h1{
+h1 {
   background-color: var(--indigo);
   color: var(--white);
 }
 
-h2{
+h2 {
   color: var(--indigo);
   background: var(--pastelorange);
 }
 
-h3{
+h3 {
+  color: var(--indigo);
+}
+
+h4 {
   color: var(--indigo);
 }
 
@@ -88,6 +92,12 @@ textarea{
   color: var(--white);
 }
 
+/* Data-title */
+.hovertitle[data-title]:hover:after {
+  background-color: var(--indigo);
+  color: white;
+}
+
 .date{
   color:#7f0121d4;
 }
@@ -95,6 +105,11 @@ textarea{
 .box{
     background-color: var(--pastelyellow);
     border: 3px solid var(--indigo);
+}
+
+.innerbox {
+    color: var(--indigo);
+    background: var(--pastelorange);
 }
 
 /* section styling */
@@ -156,6 +171,17 @@ button{
 button:hover{
   color:var(--red);
 }
+
+/* Image Galleries */
+.image-gallery div {
+  border: 3px solid var(--indigo); 
+}
+
+.image-gallery div span {
+  background-color: var(--indigo);
+  color: var(--white);
+}
+
 
 /* Scrollbars */
   /* Firefox */
@@ -219,4 +245,9 @@ button:hover{
 /* About page navi */ 
 .navi{
     background-color: var(--indigo);
+}
+
+/* About page PKMN */
+.pkmn{
+    background-color: var(--pastelorange);
 }

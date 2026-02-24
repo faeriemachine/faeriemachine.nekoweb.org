@@ -8,7 +8,7 @@
     --darkblue: #16124A;
     --plum: #43124A;
     --pastelpurple: #EDF;
-    --purple: #861369;
+    --darkred: #861344;
     --midnightblue: #191970;
     --yellow: #ffde90;
 }
@@ -41,41 +41,45 @@ a:hover {
     color: var(--white);
 }
 
-.hovertext{
+.hovertext {
   color: var(--yellow);
 }
 
-.unavailable{
+.unavailable {
   color: var(--white);
 }
 
-hr{
+hr {
     color: var(--blue);
 }
 
-h1{
-  background-color: var(--purple);
+h1 {
+  background-color: var(--darkred);
   color: white;
 }
 
-h2{
+h2 {
   color: var(--pastelpurple);
   background: var(--plum);
 }
 
-h3{
+h3 {
+  color: var(--pastelpurple);
+}
+
+h4 {
   color: var(--pastelpurple);
 }
 
 mark{
   color: var(--pastelpurple);
-  background: var(--darkblue);
+  background: var(--plum);
 }
 
 form select{
     color: var(--pastelpurple);
     background: var(--plum);
-    border: 3px solid var(--purple);
+    border: 3px solid var(--darkred);
 }
 
 textarea{
@@ -88,6 +92,11 @@ textarea{
   color: var(--black);
 }
 
+/* Data-title */
+.hovertitle[data-title]:hover:after {
+  background-color: var(--darkred);
+  color: white;
+}
 
 .date{
   color:#e0f0ebd4;
@@ -95,7 +104,13 @@ textarea{
 
 .box{
     background-color: var(--darkblue);
-    border: 3px solid var(--purple);
+    border: 3px solid var(--darkred);
+
+}
+
+.innerbox {
+    color: var(--pastelpurple);
+    background: var(--plum);
 }
 
 /* section styling */
@@ -119,7 +134,7 @@ textarea{
 }
 
 .footer {
-	background-color:var(--purple);
+	background-color:var(--darkred);
     color: var(--white);
 }
 
@@ -130,18 +145,18 @@ figure {
 
 /* Marquees */
 .marqueebox{
-    background-color:var(--purple);
+    background-color:var(--darkred);
     color: var(--white);
 }
 
 /* skip buttons */
 .skip-to-nav-link, .skip-to-content-link {
-  background-color:var(--purple);
+  background-color:var(--darkred);
   color: var(--white);
 }
 
 #top {
-  background-color: var(--purple);
+  background-color: var(--darkred);
   color: var(--white);
 }
 
@@ -151,13 +166,24 @@ figure {
 
 button{
   color:var(--white);
-  background:var(--purple);
+  background:var(--darkred);
   border: 1px solid var(--transparent);
 }
 
 button:hover{
   color:var(--red);
 }
+
+/* Image Galleries */
+.image-gallery div {
+  border: 3px solid var(--darkred);
+}
+
+.image-gallery div span {
+  background-color: var(--darkred);
+  color: var(--white);
+}
+
 
 /* Scrollbars */
   /* Firefox */
@@ -215,10 +241,15 @@ button:hover{
 
 /* Follow on Nekoweb button */
 .follow {
-  background: var(--purple);
+  background: var(--darkred);
 }
 
 /* About page navi */ 
 .navi{
-    background-color: var(--purple);
+    background-color: var(--darkred);
+}
+
+/* About page PKMN */
+.pkmn{
+    background-color: var(--plum);
 }

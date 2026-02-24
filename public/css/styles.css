@@ -80,7 +80,7 @@ h1{
   font-family: 'Mali';
 }
 
-h2{
+h2 {
   display: block;
   padding: 10px;
   font-size: 1.15em;
@@ -89,10 +89,20 @@ h2{
   font-family: 'Mali';
 }
 
-h3{
+h3 {
   display: block;
   margin: 9px;
   font-size: 1.15em;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 7px;
+  font-family: 'Mali';
+}
+
+h4 {
+  display: block;
+  margin: 9px;
+  font-size: 1.05em;
   font-weight: 600;
   border-radius: 25px;
   padding: 7px;
@@ -115,6 +125,29 @@ form select{
   width: 100%;
 }
 
+/* Hover to show title */
+.hovertitle {
+  font-weight: bold;
+  position: relative;
+}
+
+/* Data-title */
+.hovertitle[data-title]:hover:after {
+  content: attr(data-title);
+  position: absolute;
+  top: -200%;
+  left: -35%;
+  z-index: 100;
+  width: 6rem;
+  font-size: 0.7em;
+  font-family: 'Mali';
+  padding: 10px;
+  border-radius: 15px;
+  animation: fadeInUp 0.25s ease-out;
+}
+
+/* Style containers */
+
 .box{
     margin: 10px;
     padding: 5px;
@@ -131,6 +164,14 @@ form select{
 	display:flex;
 	flex-direction:column;
 	align-items: stretch;
+}
+
+.innerbox {
+    color: var(--pastelpurple);
+    background: var(--plum);
+    border-radius: 25px;
+    margin: 0px 5px 20px 5px;
+    padding: 5px;
 }
 
 /* main content */
@@ -374,6 +415,22 @@ button:hover{
 #giftoggle{
   font-size: 0.7em;
   padding: 5px;
+}
+
+/* Fade Effects */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    animation: fadeInUp 0.5s ease-out;
 }
 
 /* Breathing element */
