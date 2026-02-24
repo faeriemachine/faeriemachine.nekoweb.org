@@ -42,6 +42,15 @@
     text-align: center;
 }
 
+#idbutton{
+  transition: all .2s ease-in-out;  
+}
+
+#idbutton:hover{
+  transform: scale(1.75); 
+}
+
+
 .navi{
     text-align:center;
     margin: 8px auto;
