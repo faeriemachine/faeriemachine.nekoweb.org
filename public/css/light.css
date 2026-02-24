@@ -18,7 +18,7 @@ body {
     background: url("../img/home/dither1.png");
       background-size: cover;
       background-position: top;
-    color: var(--darkred)
+    color: var(--darkred);
 }
 
 a {
@@ -108,7 +108,7 @@ textarea{
 }
 
 .innerbox {
-    color: var(--indigo);
+    color: var(--darkred);
     background: var(--pastelorange);
 }
 

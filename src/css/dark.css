@@ -18,7 +18,7 @@ body {
     background: url("../img/home/dither2.png");
       background-size: cover;
       background-position: center;
-    color: var(--pastelyellow)
+    color: var(--pastelyellow);
 }
 
 a {
@@ -109,7 +109,7 @@ textarea{
 }
 
 .innerbox {
-    color: var(--pastelpurple);
+    color: var(--pastelyellow);
     background: var(--plum);
 }
 
