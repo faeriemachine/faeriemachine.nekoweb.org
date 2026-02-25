@@ -372,4 +372,12 @@ a:hover{
         width: 125px;
     }
 
+    .aboutimg{
+      width: inherit;
+    }
+
+  .aboutbio {
+      width: auto;
+    }
+
 }
