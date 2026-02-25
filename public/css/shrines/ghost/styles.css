@@ -171,6 +171,27 @@ main{
     margin: 5px;
 }
 
+.aboutimg, .aboutbio{
+    width: 50%;
+}
+
+.aboutimg{
+    width: 200px;
+    height: 200px;
+    margin: 7px;
+    background-image: url('../../../img/shrines/ghost/profile.gif');
+    background-size: 123% 123%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 50px solid pink;
+    border-image: url('../../../img/shrines/ghost/border.png');
+    border-image-slice: 100 100;
+    border-image-repeat: round;
+    z-index: 2;
+    position: relative;
+    transform: rotate(-6deg);
+}
+
 /* ===== Scrollbar CSS ===== */
   /* Firefox */
   .content {
