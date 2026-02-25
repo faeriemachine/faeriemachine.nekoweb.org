@@ -79,7 +79,7 @@ mark{
 form select{
     color: var(--indigo);
     background: var(--pastelorange);
-    border: 3px solid var(--indigo);
+    border: 1px solid var(--transparent);
 }
 
 textarea{
