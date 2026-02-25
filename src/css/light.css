@@ -4,7 +4,7 @@
     --white: #fff;
     --pastelyellow: #FFFFE6;
     --pastelorange:#FFE9B4;
-    --orange: #ffb06a;
+    ---green: #aae8ce;
     --red: #E8315D;
     --darkred: #7f0121;
     --magenta: #C23D86;
@@ -50,7 +50,7 @@ a:hover {
 }
 
 hr {
-    color: var(--orange);
+    color: var(---green);
 }
 
 h1 {

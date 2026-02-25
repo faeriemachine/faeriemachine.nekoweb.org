@@ -63,7 +63,9 @@ li.links{
 }
 
 hr{
-    border-radius: 70%;
+  border-style: dashed;
+  border-width: 2px;
+  margin: 15px 2em 15px 2em;
 }
 
 h1{
