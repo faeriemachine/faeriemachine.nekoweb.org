@@ -37,6 +37,7 @@ a {
     overflow: hidden;
     font-weight:900;
     font-family: 'Mali';
+    transition: all .2s ease;
 }
 
 a:hover{
