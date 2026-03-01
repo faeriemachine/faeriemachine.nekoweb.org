@@ -44,6 +44,17 @@
   </div>
 </div>
 </body>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script>
+  tippy('[data-tippy-content]', {
+    theme: 'faerie',
+    animation: 'scale',
+    touch: 'hold',
+    inertia: true,
+    arrow: true,
+  });
+</script>
 <script src="../../../js/scrobbles.js{{ nocache }}"></script>
 <script src="../../../js/updated-visitors.js{{ nocache }}"></script>
 <script src="../../../js/backtotop.js{{ nocache }}"></script>

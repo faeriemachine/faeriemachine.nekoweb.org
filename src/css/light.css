@@ -45,6 +45,14 @@ a:hover {
     color: var(--royalblue)
 }
 
+.tippy-box[data-theme~='faerie'] {
+  background-color: var(--indigo);
+}
+
+.tippy-box[data-theme~='faerie'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: var(--indigo);
+}
+
 .unavailable {
     color: var(--black)
 }
