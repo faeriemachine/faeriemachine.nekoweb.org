@@ -42,11 +42,16 @@ a {
 
 a:hover{
   letter-spacing: 2px;
-  transition: all .2s ease-in-out;  
+  transition: all .2s ease-in-out;
 }
 
 #navigation{
     vertical-align: inherit;
+}
+
+#navigation:hover{
+  letter-spacing: 0;
+  transition: none;
 }
 
 p {
@@ -128,7 +133,7 @@ mark{
   font-family: 'Mali';
 }
 
-form select{ 
+form select{
   display: block;
   padding: 10px;
   font-family: Mali;
@@ -196,7 +201,7 @@ form select{
 
 /* section styling */
 
-.header{ 
+.header{
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
 }
@@ -347,21 +352,21 @@ marquee items or other effects and styles!*/
   margin-bottom: 5px;
   margin-left: auto;
   margin-right: auto;
-  transition: all .2s ease;  
+  transition: all .2s ease;
 }
 
 #button{
-    transition: all .2s ease;  
+    transition: all .2s ease;
   }
 
 #neighbour{
   display: inline-block;
-  transition: all .2s ease;  
+  transition: all .2s ease;
 }
 
 #button:hover, .link:hover, #neighbour:hover{
-  transition: all .2s ease;  
-  transform: scale(1.1); 
+  transition: all .2s ease;
+  transform: scale(1.1);
 }
 
 /* skip buttons */
@@ -449,42 +454,42 @@ button:hover{
      margin-top: 15px;
      text-align: center;
      font-size:3.25em;
-     font-weight:bold; 
+     font-weight:bold;
      -webkit-animation: pop 1s ease-in-out infinite alternate;
      animation: pop 1s ease-in-out infinite alternate;
      -moz-animation: pop 1s ease-in-out infinite alternate;
     }
-    
+
     @keyframes pop {
     from {
     transform:scale(0.95)
     }
-    
+
     50% {
     transform:scale(1)
     }
-    
+
     to {
     transform:scale(0.95)
     }
     }
-    
+
     @-webkit-keyframes pop {
     from {
     -webkit-transform:scale(0.95)
-    
+
     }
-    
+
     50% {
     -webkit-transform:scale(1)
-    
+
     }
-    
+
     to {
     -webkit-transform:scale(0.95)
-    
+
     }
-    
+
     }
 
 /* Scrollbars */
@@ -545,14 +550,14 @@ button:hover{
       width: 100%;
       transition: 0.3s;
       display: inline-block;
-    
+
       img#trackart {
         max-width: 70%;
         margin-top: 5px;
         margin-left: 3px;
         box-shadow: 1px 1px 5px black;
       }
-    
+
       .trackInfo {
         display: block;
         margin: 5px;
@@ -560,7 +565,7 @@ button:hover{
         white-space: nowrap;
         text-overflow: ellipsis;
         margin-top: -10px;
-    
+
         a {
           max-width: 90%;
           display: block;
@@ -570,7 +575,7 @@ button:hover{
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis;
-    
+
           &:nth-child(odd) {
             img {
               width: 15px;
@@ -578,14 +583,14 @@ button:hover{
               vertical-align: middle;
               margin: -2% 3px 0 0;
             }
-    
+
             font-weight: bold;
             vertical-align: middle;
             line-height: 15px;
             letter-spacing: 0.2px;
             padding: 10% 0 0 0%;
           }
-    
+
           &:nth-child(even) {
             img {
               width: 15px;
@@ -711,7 +716,7 @@ nav, aside{
           margin-top: -296px;
       }
   }
-  
+
     #cd{
       max-width: 65%;
     }
